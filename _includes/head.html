@@ -1,0 +1,15 @@
+<head>
+    {% include analytics.html %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.title '}}{% else %}{{ site.title }}{% endif %}</title>
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="shortcut icon" href="{{ "img/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon image_src" href="{{ "img/apple-touch-icon.png" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+</head>
