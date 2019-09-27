@@ -1,3 +1,7 @@
+---
+title: Welcome!
+---
+
 ## Welcome to Sean Dewar's personal GitHub Pages site!
 
 This site is currently **under construction**, but I hope to list information

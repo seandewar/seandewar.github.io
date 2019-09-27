@@ -1,1 +1,15 @@
+title: Sean Dewar
+logo: "/img/me-circle-border.png"
+description: |
+  I am a B.Sc. Computer Science graduate with UK first-class honours who has
+  enjoyed programming as a hobby since childhood. I have always been interested
+  by the ability programming has to turn ideas into something substantial; I
+  often describe it as the closest thing we will ever have to magic!
+  <br/><br/>
+  I began my programming journey tinkering with QBasic at the age of eight.
+  Since then, I have dabbled in languages such as C#, Visual Basic, Java, Rust,
+  Python, Lua, Haskell, and others, but my preferred tools of the trade are C++
+  and C.
 theme: jekyll-theme-minimal
+timezone: Europe/London
+google_analytics: UA-148899653-1
