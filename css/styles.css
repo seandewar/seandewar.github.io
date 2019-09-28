@@ -12,8 +12,6 @@ a {
 }
 
 h1 {
-    margin-top: 2rem;
-    text-align: center;
     color: #000000;
 }
 
@@ -21,6 +19,17 @@ img.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1.bio {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2.25rem;
+}
+
+p.bio {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .nav {
