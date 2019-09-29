@@ -1,21 +1,55 @@
-body {
-    padding-top: 4rem;
-    margin: 0 2rem 0 2rem;
+* {
+    box-sizing: border-box;
     font-family: sans-serif;
-    color: #202020;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #202020;
+    color: #ffffff;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #5a53ed;
+    color: #0085b6;
 }
 
-h1 {
-    color: #000000;
+a:hover {
+    color: #8080ff;
 }
 
-img.center {
+.main-content {
+    padding: 4rem 2rem 4rem 2rem;
+    margin: 0;
+    background-color: #ffffff;
+    color: #202020;
+}
+
+.footer-content {
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 0;
+}
+
+.footer-text {
+    padding: 0 1rem 0 1rem;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer-link {
+    color: #ffffff;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.block-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +58,6 @@ img.center {
 h1.bio {
     font-size: 3rem;
     text-align: center;
-    margin-top: 2.25rem;
 }
 
 p.bio {
@@ -39,7 +72,7 @@ p.bio {
     left: 0;
     width: 100%;
     background-color: #505050;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
     color: #ffffff;
 }
 
@@ -75,4 +108,54 @@ p.bio {
 .nav-title {
     padding: 0 1rem 0 1rem;
     font-style: italic;
+}
+
+.projects-content {
+    padding: 2rem 0 0 0;
+    margin: 0;
+    background-color: #181818;
+}
+
+.project-bg-container {
+    padding: 2rem 0 2rem 0;
+    margin: 3rem 0 0 0;
+    background-size: cover;
+    background-position: center center;
+    background-color: #ffffff;
+}
+
+.project-info-container {
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 0 1rem 0 1rem;
+    background-color: rgba(24, 24, 24, 0.75);
+}
+
+.project-info-content {
+    margin: 0 0 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-info-content-img-col {
+    width: 35%;
+}
+
+.project-info-content-desc-col {
+    width: 65%;
+}
+
+.project-info-content-img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.project-info-content-desc {
+    padding: 0 0 0 2rem;
+}
+
+.project-info-title {
+    color: #ffffff;
+    text-align: center;
 }
