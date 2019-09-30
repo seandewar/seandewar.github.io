@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; /* make sure padding doesn't affect dimensions */
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -13,11 +13,11 @@ body {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #0085b6;
+    color: #0055b2;
 }
 
 a:hover {
-    color: #0055b2;
+    color: #0085b6;
 }
 
 .nav {
@@ -26,7 +26,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #505050;
+    background-color: #202020;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
     color: #ffffff;
 }
@@ -55,13 +55,19 @@ a:hover {
 }
 
 .nav-link:hover {
-    background-color: #202020;
+    background-color: #505050;
     color: inherit;
 }
 
 .nav-title {
     padding: 0 1rem 0 1rem;
     font-style: italic;
+}
+
+@media (max-width: 400px) {
+    .nav-title {
+        display: none;
+    }
 }
 
 .main-content {
@@ -98,8 +104,8 @@ a:hover {
     margin-right: auto;
 }
 
-h1.bio-title {
-    margin: 3rem 0 3rem 0;
+.bio-title {
+    margin: 1.5rem 0 1.5rem 0;
     font-size: 3rem;
     text-align: center;
 }
@@ -117,43 +123,110 @@ h1.bio-title {
     text-align: center;
 }
 
-.projects-content {
+.projects-title-container {
     overflow: auto; /* stop margins collapsing with child title header etc. */
-    background-image: linear-gradient(-180deg, #202020, #505050);
+    background-image: linear-gradient(-180deg, #101010, #202020);
 }
 
 .project-bg-container {
-    padding: 3rem 1rem 3rem 1rem;
-    background-size: cover;
+    padding: 3rem 2rem 3rem 2rem;
+    background-attachment: fixed; /* what can I say, I loooove parallax! */
     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: linear-gradient(45deg, #505050, #202020);
 }
 
 .project-info-container {
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(24, 24, 24, 0.75);
+    border-radius: 20px;
+    background-color: rgba(32, 32, 32, 0.96);
 }
 
-.project-info-img-col {
-    width: 35%;
+.project-info-title {
+    margin: 0 0 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.25rem;
+    color: #ffffff;
+}
+
+.project-info-media-col {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .project-info-media-col {
+        width: 30%;
+    }
 }
 
 .project-info-desc-col {
-    width: 65%;
-    padding: 0 0 0 2rem;
+    width: 100%;
+    padding: 1.5rem 0;
 }
 
-.project-info-img {
+@media (min-width: 768px) {
+    .project-info-desc-col {
+        width: 70%;
+        padding: 0 0 0 3rem;
+    }
+}
+
+.project-info-media {
     display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-.project-info-title {
+.project-info-tags-container {
+    margin: 0 0 1.25rem 0;
+}
+
+.project-info-tag {
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.25rem 0.6rem 0.25rem 0.6rem;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.project-info-desc {
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+}
+
+.project-info-dates {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.project-info-links-container {
+    margin: 2.5rem 0 0 0;
+}
+
+.project-info-link {
+    margin: 0 0.75rem 0.75rem 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: inline-block;
+    font-size: 1.35rem;
+    border-radius: 4px;
+    background-image: linear-gradient(-28deg, #0055b2, #0075a6);
     color: #ffffff;
-    text-align: center;
-    width: 100%;
+}
+
+.project-info-link:hover {
+    background-image: linear-gradient(-28deg, #000000, #101010);
+    color: #ffffff;
+}
+
+.project-info-link-fa {
+    margin: 0 0.75rem 0 0;
+    font-weight: normal;
 }
