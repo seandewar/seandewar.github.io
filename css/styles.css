@@ -17,7 +17,8 @@ a {
 }
 
 a:hover {
-    color: #0085b6;
+    text-decoration: underline;
+    color: #003c7c;
 }
 
 .nav {
@@ -49,14 +50,16 @@ a:hover {
 }
 
 .nav-link {
-    display: block;
+    display: inline-block;
     padding: 1rem 1rem 1rem 1rem;
-    color: inherit;
+    color: #ffffff;
 }
 
 .nav-link:hover {
+    text-decoration: none;
     background-color: #505050;
-    color: inherit;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
 }
 
 .nav-title {
@@ -64,7 +67,7 @@ a:hover {
     font-style: italic;
 }
 
-@media (max-width: 400px) {
+@media only screen and print(max-width: 400px) {
     .nav-title {
         display: none;
     }
@@ -78,7 +81,6 @@ a:hover {
 
 .footer-content {
     padding: 1rem 2rem 1rem 2rem;
-    background-color: inherit;
 }
 
 .footer-text {
@@ -86,16 +88,15 @@ a:hover {
     margin: 0;
     text-align: center;
     font-size: 12px;
-    color: inherit;
 }
 
 .footer-link {
-    color: inherit;
+    color: #ffffff;
 }
 
 .footer-link:hover {
     text-decoration: underline;
-    color: inherit;
+    color: #ffffff;
 }
 
 .block-center {
@@ -198,13 +199,14 @@ a:hover {
 
 .project-info-desc {
     margin: 0 0 1rem 0;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
 }
 
 .project-info-dates {
     margin: 0 0 0.5rem 0;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .project-info-links-container {
@@ -217,13 +219,31 @@ a:hover {
     display: inline-block;
     font-size: 1.35rem;
     border-radius: 4px;
-    background-image: linear-gradient(-28deg, #0055b2, #0075a6);
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    background-color: #0055b2;
     color: #ffffff;
 }
 
 .project-info-link:hover {
-    background-image: linear-gradient(-28deg, #000000, #101010);
+    text-decoration: none;
+    background-color: #003c7c;
     color: #ffffff;
+}
+
+.project-info-link-yt {
+    background-color: #cf2626;
+}
+
+.project-info-link-yt:hover {
+    background-color: #9b1d1d;
+}
+
+.project-info-link-gh {
+    background-color: #0a0a0a;
+}
+
+.project-info-link-gh:hover {
+    background-color: #000000;
 }
 
 .project-info-link-fa {
