@@ -30,7 +30,7 @@ layout: default
 <!-- My Projects -->
 <section id="projects" class="projects-content">
     <div class="projects-title-container"><h2 class="bio-title">My Projects</h2></div>
-    {% for project in site.data.projects %}
-    {% include project-info.html project=project %}
-    {% endfor %}
+    {%- for project in site.data.projects -%}
+    {%- include project-info.html project=project -%}
+    {%- endfor -%}
 </section>

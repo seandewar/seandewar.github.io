@@ -1,6 +1,6 @@
-{% comment %}
+{%- comment -%}
     Seano's amazing project list generator (using Liquid template magic ooOooOoO!!)
-{% endcomment %}
+{%- endcomment -%}
 
 <!-- {{ include.project.name }} -->
 <div id="{{ include.project.name | slugify: 'ascii' }}" class="project-bg-container" style="{{ include.project.bg_styles }}">
@@ -13,43 +13,42 @@
             <div class="project-info-desc-col">
                 <p class="project-info-dates">{{ include.project.dates }}</p>
                 <div class="project-info-tags-container">
-                    {% for tag in include.project.tags %}
+                    {%- for tag in include.project.tags -%}
                     <p class="project-info-tag">{{ tag }}</p>
-                    {% endfor %}
+                    {%- endfor -%}
                 </div>
                 <div class="project-info-desc-container">
                     {{ include.project.desc | strip | markdownify }}
                 </div>
                 <div class="project-info-links-container">
-                    {% for link in include.project.links %}
-                        {% assign icon_class = '' %}
-                        {% assign link_class = '' %}
-                        {% assign default_name = '' %}
-
-                        {% case link.type %}
-                            {% when 'github' %}
-                                {% assign default_name = 'Repo' %}
-                                {% assign icon_class = 'fab fa-github' %}
-                                {% assign link_class = 'project-info-link-gh' %}
-                            {% when 'youtube' %}
-                                {% assign default_name = 'Video' %}
-                                {% assign icon_class = 'fab fa-youtube' %}
-                                {% assign link_class = 'project-info-link-yt' %}
-                            {% when 'download' %}
-                                {% assign default_name = 'Download' %}
-                                {% assign icon_class = 'fas fa-download' %}
-                            {% when 'pdf' %}
-                                {% assign default_name = 'PDF' %}
-                                {% assign icon_class = 'far fa-file-pdf' %}
-                            {% else %}
-                                {% assign default_name = 'Website' %}
-                                {% assign icon_class = 'fas fa-globe-americas' %}
-                        {% endcase %}
+                    {%- for link in include.project.links -%}
+                        {%- assign icon_class = '' -%}
+                        {%- assign link_class = '' -%}
+                        {%- assign default_name = '' -%}
+                        {%- case link.type -%}
+                            {%- when 'github' -%}
+                                {%- assign default_name = 'Repo' -%}
+                                {%- assign icon_class = 'fab fa-github' -%}
+                                {%- assign link_class = 'project-info-link-gh' -%}
+                            {%- when 'youtube' -%}
+                                {%- assign default_name = 'Video' -%}
+                                {%- assign icon_class = 'fab fa-youtube' -%}
+                                {%- assign link_class = 'project-info-link-yt' -%}
+                            {%- when 'download' -%}
+                                {%- assign default_name = 'Download' -%}
+                                {%- assign icon_class = 'fas fa-download' -%}
+                            {%- when 'pdf' -%}
+                                {%- assign default_name = 'PDF' -%}
+                                {%- assign icon_class = 'far fa-file-pdf' -%}
+                            {%- else -%}
+                                {%- assign default_name = 'Website' -%}
+                                {%- assign icon_class = 'fas fa-globe-americas' -%}
+                        {%- endcase -%}
                         <a class="project-info-link {% if link_class %}{{ link_class }}{% endif %}" href="{{ link.url }}">
                             {% if icon_class %}<span class="{{ icon_class }}"></span>{% endif %}
                             {% if link.name %}{{ link.name }}{% else %}{{ default_name }}{% endif %}
                         </a>
-                    {% endfor %}
+                    {%- endfor -%}
                 </div>
             </div>
         </div>
