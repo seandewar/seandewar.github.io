@@ -43,14 +43,40 @@
     - "Java"
     - "Contributor"
   desc: |
-    The most popular 3rd-party client for the MMORPG _Old School RuneScape_. It
+    The most popular 3rd-party client for the MMORPG Old School RuneScape. It
     has over 13 million downloads and usually sports 50,000+ simultaneous users.
 
     Contributions include:
-      * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
+    * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
     * Extra configurability for some existing plugins.
     * Various code refactors and fixes.
   links:
     - url: "https://github.com/runelite/runelite"
       type: "github"
     - url: "https://runelite.net/"
+
+- name: "The Talisman"
+  img_src: "/img/projects/talisman.png"
+  img_alt: "The Talisman"
+  bg_styles: "background-image: url('/img/projects/talisman-bg.png')"
+  dates: "October - November 2016"
+  tags:
+    - "C"
+    - "Adafruit Libraries"
+    - "Arduino Uno"
+    - "Competition"
+  desc: |
+    A device developed alongside 2 University of Leicester students as part of
+    Thales Group's 2-week-long Project Arduino competition.  It is designed to
+    be a cost-effective portable tool for aiding lost travellers.
+    <br>
+    The device was selected over other campus entries for submission into the
+    UK finals.
+
+    It features:
+    * Fingerprint biometrics for user authentication.
+    * GPS statistics and the ability to set destinations.
+    * Radio-based communication using Morse code.
+  links:
+    - url: "https://github.com/seandewar/backpack_project_arduino"
+      type: "github"
