@@ -1,0 +1,37 @@
+- name: "sdgbc"
+  img_src: "/img/projects/sdgbc-animated.gif"
+  img_alt: "sdgbc running Pokémon - Crystal Version"
+  bg_styles: "background-image: url('/img/projects/sdgbc-bg.png')"
+  dates: "September 2017 - May 2018"
+  tags:
+    - "C++"
+    - "SFML"
+    - "wxWidgets"
+    - "CMake"
+  desc: |
+    A Nintendo Game Boy & Game Boy Color emulator developed for Windows
+    and Linux.<br>
+    The project won the 2018 best Computer Science project prize at the
+    University of Leicester.
+
+    It features:
+    * Video, sound and joypad emulation.
+    * A command-line interface for debugging programs.
+    * Emulation controls for pausing and fast-forwarding gameplay on-demand.
+    * The ability to import and export Visual Boy Advance .sav files.
+  links:
+    - name: "Source"
+      type: "github"
+      url: "https://github.com/seandewar/sdgbc"
+    - name: "Video"
+      type: "youtube"
+      url: "https://www.youtube.com/watch?v=l-BObaR3Klc"
+    - name: "Download"
+      type: "download"
+      url: "https://github.com/seandewar/sdgbc/releases"
+    - name: "Dissertation"
+      type: "pdf"
+      url: "https://github.com/seandewar/sdgbc/raw/master/docs/dissertation.pdf"
+    - name: "Viva Slides"
+      type: "pdf"
+      url: "https://github.com/seandewar/sdgbc/raw/master/docs/viva_presentation.pdf"

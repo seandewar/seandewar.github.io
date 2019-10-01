@@ -1,0 +1,48 @@
+{% comment %}
+    Seano's amazing project list generator (using Liquid template magic ooOooOoO!!)
+{% endcomment %}
+
+<!-- {{ include.project.name }} -->
+<div id="{{ include.project.name }}" class="project-bg-container" style="{{ include.project.bg_styles }}">
+    <div class="content-container">
+        <div class="project-info-container">
+            <h3 class="project-info-title">{{ include.project.name }}</h3>
+            <div class="project-info-media-col">
+                <img class="project-info-media" src="{{ include.project.img_src }}" alt="{{ include.project.img_alt }}">
+            </div>
+            <div class="project-info-desc-col">
+                <p class="project-info-dates">{{ include.project.dates }}</p>
+                <div class="project-info-tags-container">
+                    {% for tag in include.project.tags %}
+                    <p class="project-info-tag">{{ tag }}</p>
+                    {% endfor %}
+                </div>
+                <div class="project-info-desc-container">
+                    {{ include.project.desc | strip | markdownify }}
+                </div>
+                <div class="project-info-links-container">
+                    {% for link in include.project.links %}
+                        {% assign icon_class = false %}
+                        {% assign link_class = false %}
+                        {% case link.type %}
+                            {% when 'github' %}
+                                {% assign icon_class = 'fab fa-github' %}
+                                {% assign link_class = 'project-info-link-gh' %}
+                            {% when 'youtube' %}
+                                {% assign icon_class = 'fab fa-youtube' %}
+                                {% assign link_class = 'project-info-link-yt' %}
+                            {% when 'download' %}
+                                {% assign icon_class = 'far fa-file-archive' %}
+                            {% when 'pdf' %}
+                                {% assign icon_class = 'far fa-file-pdf' %}
+                        {% endcase %}
+                        <a class="project-info-link {% if link_class %}{{ link_class }}{% endif %}" href="{{ link.url }}">
+                            {% if icon_class %}<span class="project-info-link-fa {{ icon_class }}"></span>{% endif %}
+                            {{ link.name }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

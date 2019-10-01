@@ -212,7 +212,7 @@ a:hover {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.project-info-desc {
+.project-info-desc-container > p, ul, ol {
     margin: 0 0 1rem 0;
     font-size: 1.25rem;
 }
