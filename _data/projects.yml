@@ -43,8 +43,9 @@
     - "Java"
     - "Contributor"
   desc: |
-    The most popular 3rd-party client for the MMORPG Old School RuneScape. It
-    has over 13 million downloads and usually sports 50,000+ simultaneous users.
+    The most popular 3rd-party client for the MMORPG [Old School RuneScape](https://oldschool.runescape.com).
+    It has over 13 million downloads and usually sports 50,000+ simultaneous
+    users.
 
     Contributions include:
     * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
@@ -54,6 +55,32 @@
     - url: "https://github.com/runelite/runelite"
       type: "github"
     - url: "https://runelite.net/"
+
+- name: "The File System Dungeon"
+  img_src: "/img/projects/fs-dungeon.png"
+  img_alt: "The File System Dungeon"
+  bg_styles: "background-image: url('/img/projects/fs-dungeon-bg.png')"
+  dates: "July - August 2016"
+  tags:
+    - "C++"
+    - "SFML"
+    - "CMake"
+    - "Job"
+  desc: |
+    An educational dungeon crawler game developed with support from
+    [Santander Universities](https://www.santander.co.uk/uk/santander-universities)
+    that aims to teach students the basics on navigating UNIX-like file systems.
+
+    It features:
+    * Procedurally generated dungeons, whose layout mimics that of a basic
+    UNIX-like file system.
+    * Numerous enemies to fight and items to loot.
+    * A scaling objective system; difficulty increases as players progress.
+  links:
+    - url: "https://github.com/seandewar/UoLEduGame"
+      type: "github"
+    - url: "https://www.youtube.com/watch?v=7tGp4FgdIsc"
+      type: "youtube"
 
 - name: "The Talisman"
   img_src: "/img/projects/talisman.png"
@@ -67,7 +94,7 @@
     - "Competition"
   desc: |
     A device developed alongside 2 University of Leicester students as part of
-    Thales Group's 2-week-long Project Arduino competition.  It is designed to
+    [Thales Group](https://www.thalesgroup.com/en)'s 2-week-long Project Arduino competition.  It is designed to
     be a cost-effective portable tool for aiding lost travellers.
     <br>
     The device was selected over other campus entries for submission into the
