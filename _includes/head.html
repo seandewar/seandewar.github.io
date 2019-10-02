@@ -14,5 +14,11 @@
     <link rel="shortcut icon" href="{{ "img/favicon.ico" | prepend: site.baseurl }}">
     <link rel="apple-touch-icon image_src" href="{{ "img/apple-touch-icon.png" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+    {%- if page.styles -%}
+        {%- for style_url in page.styles -%}
+            <link rel="stylesheet" href="{{ style_url | prepend: site.baseurl }}">
+        {%- endfor -%}
+    {%- endif -%}
 </head>

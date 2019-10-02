@@ -1,5 +1,7 @@
 ---
 layout: default
+styles:
+  - "/css/bio.css"
 ---
 
 <!-- Welcome -->
@@ -30,7 +32,20 @@ layout: default
 <!-- My Projects -->
 <section id="projects" class="projects-content">
     <div class="projects-title-container"><h2 class="bio-title">My Projects</h2></div>
-    {%- for project in site.data.projects -%}
-    {%- include project-info.html project=project -%}
-    {%- endfor -%}
+        {%- for project in site.data.projects.main_projects -%}
+            {%- include projects/project_info.html project=project -%}
+        {%- endfor -%}
+    <!-- <div class="projects-title-container"><h2 class="bio-title">Other Works</h2></div> -->
+    <div class="project-bg-container">
+        <div class="content-container">
+            <div class="misc-projects-container">
+                {%- for project in site.data.projects.main_projects -%}
+                {%- include projects/misc_project_info.html project=project -%}
+                {%- endfor -%}
+                {%- for project in site.data.projects.misc_projects -%}
+                {%- include projects/misc_project_info.html project=project -%}
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
 </section>

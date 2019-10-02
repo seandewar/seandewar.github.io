@@ -1,0 +1,29 @@
+<!-- {{ include.project.name }} -->
+<div id="{{ include.project.name | slugify: 'ascii' }}" class="project-bg-container" style="{{ include.project.bg_styles }}">
+    <div class="content-container">
+        <div class="project-info-container">
+            <h3 class="project-info-title">{{ include.project.name }}</h3>
+            <div class="project-info-media-col">
+                <img class="project-info-media" src="{{ include.project.img_src }}" alt="{{ include.project.img_alt }}">
+            </div>
+            <div class="project-info-desc-col">
+                <p class="project-info-dates">{{ include.project.dates }}</p>
+                <div class="project-info-tags-container">
+                    {%- for tag in include.project.tags -%}
+                        <p class="project-info-tag">{{ tag }}</p>
+                    {%- endfor -%}
+                </div>
+                <div class="project-info-desc-container">
+                    {%- if include.project.desc -%}
+                        {{ include.project.desc | strip | markdownify }}
+                    {%- else -%}
+                        {{ include.project.short_desc | strip | markdownify }}
+                    {%- endif -%}
+                </div>
+                <div class="project-info-links-container">
+                    {% include /projects/project_links.html links=include.project.links %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

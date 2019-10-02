@@ -20,6 +20,13 @@
     * A command-line interface for debugging programs.
     * Emulation controls for pausing and fast-forwarding gameplay on-demand.
     * The ability to import and export Visual Boy Advance .sav files.
+  short_desc: |
+    A Game Boy & Game Boy Color emulator for Windows and Linux.
+    <br>
+    Features video, sound & joypad emulation, debugging tools, emulation
+    controls and save support.
+
+    It won the Computer Science prize at the University of Leicester.
   links:
     - url: "https://github.com/seandewar/sdgbc"
       type: "github"
@@ -51,6 +58,13 @@
     * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
     * Extra configurability for some existing plugins.
     * Various code refactors and fixes.
+  short_desc: |
+    Popular 3rd-party [Old School RuneScape](https://oldschool.runescape.com)
+    game client with 13 million+ downloads, averaging 50,000+ simultaneous
+    users.
+
+    Contributed [the Run Energy plugin in v1.4.15](https://runelite.net/blog/show/2018-08-30-1.4.15-Release),
+    plugin enhancements and code refactors & fixes.
   links:
     - url: "https://github.com/runelite/runelite"
       type: "github"
@@ -76,6 +90,13 @@
     UNIX-like file system.
     * Numerous enemies to fight and items to loot.
     * A scaling objective system; difficulty increases as players progress.
+  short_desc: |
+    Educational dungeon crawler game developed with support from
+    [Santander Universities](https://www.santander.co.uk/uk/santander-universities).
+    Aims to teach students basic UNIX file system navigation skills.
+
+    Features procedurally generated dungeons, many items & enemies and an
+    objective system with progressing difficulty.
   links:
     - url: "https://github.com/seandewar/UoLEduGame"
       type: "github"
@@ -89,13 +110,14 @@
   dates: "October - November 2016"
   tags:
     - "C"
-    - "Adafruit Libraries"
+    - "Adafruit"
     - "Arduino Uno"
     - "Competition"
   desc: |
     A device developed alongside 2 University of Leicester students as part of
-    [Thales Group](https://www.thalesgroup.com/en)'s 2-week-long Project Arduino competition.  It is designed to
-    be a cost-effective portable tool for aiding lost travellers.
+    [Thales Group](https://www.thalesgroup.com/en)'s 2-week-long Project Arduino competition.
+    It is designed to be a cost-effective portable tool for aiding lost
+    travellers.
     <br>
     The device was selected over other campus entries for submission into the
     UK finals.
@@ -104,6 +126,15 @@
     * Fingerprint biometrics for user authentication.
     * GPS statistics and the ability to set destinations.
     * Radio-based communication using Morse code.
+  short_desc: |
+    A device developed with 2 other University of Leicester students for
+    [Thales](https://www.thalesgroup.com/en)' 2-week Project Arduino
+    event.
+    <br>
+    Features fingerprint biometrics, GPS facilities and
+    radio-based Morse code communication.
+
+    It beat the other campus entries, entering into the UK finals.
   links:
     - url: "https://github.com/seandewar/backpack_project_arduino"
       type: "github"

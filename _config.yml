@@ -1,10 +1,10 @@
 title: "Sean Dewar"
 logo: "/img/me-circle-border.png"
-description: "Sean Dewar's personal GitHub pages site"
+description: "Sean Dewar's Personal Website"
 author: "Sean Dewar"
 
-baseurl: ""
 url: "https://seandewar.github.io"
+baseurl: ""
 
 timezone: "Europe/London"
 google_analytics: "UA-148899653-1"

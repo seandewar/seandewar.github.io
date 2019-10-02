@@ -1,0 +1,234 @@
+/* Bio (inside main content) */
+.bio-title {
+    margin: 1.5rem 0 1.5rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bio-face-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-width: 256px;
+}
+
+.bio-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Projects */
+.projects-title-container {
+    overflow: auto; /* stop margins collapsing with child title header etc. */
+    background-image: linear-gradient(-180deg, #101010, #202020);
+    color: #ffffff;
+}
+
+.project-bg-container {
+    padding: 2em 1rem 2rem 1rem;
+    background-attachment: fixed; /* what can I say, I loooove parallax! */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(-45deg, #1a1a1a, #101010);
+}
+
+.project-info-container {
+    margin: 1rem 0 1rem 0;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    background-image: linear-gradient(0deg, rgba(32, 32, 32, 0.9), rgba(32, 32, 32, 0.98));
+    color: #ffffff;
+}
+
+.project-info-title {
+    margin: 0 0 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.project-info-media-col {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .project-info-media-col {
+        width: 30%;
+    }
+}
+
+.project-info-desc-col {
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+@media (min-width: 768px) {
+    .project-info-desc-col {
+        width: 70%;
+        padding: 0 0 0 3rem;
+    }
+}
+
+.project-info-media {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+@media only all and (min-width: 480px) and (max-width: 767px) {
+    .project-info-media {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 480px;
+    }
+}
+
+.project-info-dates {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.project-info-tags-container {
+    margin: 0 0 1.25rem 0;
+}
+
+.project-info-tag {
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.25rem 0.6rem 0.25rem 0.6rem;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.project-info-desc-container > * {
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+}
+
+.project-info-links-container {
+    margin: 2.5rem 0 0 0;
+}
+
+.project-info-link {
+    margin: 0 0.75rem 0.75rem 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: inline-block;
+    font-size: 1.35rem;
+    font-weight: normal;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    background-color: #0055b2;
+}
+
+.project-info-link:hover {
+    text-decoration: none;
+    background-color: #003c7c;
+}
+
+.project-info-link-yt {
+    background-color: #cf2626;
+}
+
+.project-info-link-yt:hover {
+    background-color: #9b1d1d;
+}
+
+.project-info-link-gh {
+    background-color: #0f0f0f;
+}
+
+.project-info-link-gh:hover {
+    background-color: #000000;
+}
+
+.project-info-link-fa {
+    margin: 0 0.75rem 0 0;
+    font-weight: normal;
+}
+
+@media only all and (max-width: 767px) {
+    .project-info-dates,
+    .project-info-tags-container,
+    .project-info-links-container {
+        text-align: center;
+    }
+}
+
+/* Misc. Projects */
+.misc-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* This outer container is needed to allow us to have a bottom "margin" + the
+ * auto from the inner container - this will stop the box shadow from clipping
+ * too */
+.misc-project-info-container {
+    padding-bottom: 0.75rem;
+}
+
+.misc-project-info-inner-container {
+    margin: 0.75rem 0.75rem auto 0.75rem;
+    overflow: hidden;
+    max-width: 305px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+
+.misc-project-info-media {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.misc-project-info-desc-row {
+    padding: 1rem 1rem 1rem 1rem;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(0deg, #202020, #1c1c1c);
+}
+
+.misc.project-info-title {
+    margin: 0 0 0.9rem 0;
+    font-size: 1.5rem;
+}
+
+.misc.project-info-dates {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.misc.project-info-tags-container {
+    margin: 0 0 0.9rem 0;
+}
+
+.misc.project-info-tag {
+    margin: 0 0.3rem 0.3rem 0;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    font-size: 0.85rem;
+}
+
+.misc.project-info-desc-container > * {
+    font-size: 1rem;
+}
+
+.misc.project-info-links-container {
+    margin: 1.25rem 0 0 0;
+}
+
+.misc.project-info-link {
+    margin: 0 0.6em 0.5rem 0;
+    padding: 0.4rem 0.65rem 0.4rem 0.65rem;
+    font-size: 1.1rem;
+}

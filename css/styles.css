@@ -1,8 +1,8 @@
-/* Main stylesheet for seandewar.github.io <https://github.com/seandewar> */
-
+/* Page & Body defaults */
 * {
     box-sizing: border-box; /* make sure padding doesn't affect dimensions */
     font-family: 'Open Sans', sans-serif; /* <3 open sans */
+    word-wrap: break-word;
 }
 
 body {
@@ -12,21 +12,17 @@ body {
     color: #ffffff;
 }
 
-a {
+body a {
     text-decoration: none;
     font-weight: bold;
-    color: #0055b2;
+    color: #ffffff;
 }
 
-a:hover {
+body a:hover {
     text-decoration: underline;
-    color: #003c7c;
 }
 
-.font-weight-normal {
-    font-weight: normal !important;
-}
-
+/* Navbar */
 .nav {
     z-index: 1;
     position: fixed;
@@ -52,22 +48,29 @@ a:hover {
 }
 
 .nav-link {
-    display: inline-block;
+    display: block;
     padding: 1rem 1rem 1rem 1rem;
-    color: #ffffff;
 }
 
 .nav-link:hover {
     text-decoration: none;
     background-color: #505050;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
-    color: #ffffff;
 }
 
+/* Main content */
 .main-content {
     padding: 3rem 2rem 3rem 2rem;
     background-color: #ffffff;
     color: #202020;
+}
+
+.main-content a {
+    color: #0055b2;
+}
+
+.main-content a:hover {
+    color: #003c7c;
 }
 
 .content-container {
@@ -77,6 +80,11 @@ a:hover {
     overflow: hidden; /* call it a day if it can't even fit in this */
 }
 
+.font-weight-normal {
+    font-weight: normal !important;
+}
+
+/* Footer */
 .footer-content {
     padding: 1.5rem 2rem 1rem 2rem;
 }
@@ -85,178 +93,4 @@ a:hover {
     margin: 0 0 0.25rem 0;
     text-align: center;
     font-size: 12px;
-}
-
-.footer-link {
-    color: #ffffff;
-}
-
-.footer-link:hover {
-    text-decoration: underline;
-    color: #ffffff;
-}
-
-.block-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bio-title {
-    margin: 1.5rem 0 1.5rem 0;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.bio-face-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    max-width: 256px;
-}
-
-.bio-text {
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.projects-title-container {
-    overflow: auto; /* stop margins collapsing with child title header etc. */
-    background-image: linear-gradient(-180deg, #101010, #202020);
-}
-
-.project-bg-container {
-    padding: 3rem 1rem 3rem 1rem;
-    background-attachment: fixed; /* what can I say, I loooove parallax! */
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(0, #101010, #000000);
-}
-
-.project-info-container {
-    padding: 2rem 2rem 2rem 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 12px;
-    background-image: linear-gradient(0, rgba(32, 32, 32, 0.9), rgba(32, 32, 32, 0.98));
-}
-
-.project-info-title {
-    margin: 0 0 1.5rem 0;
-    width: 100%;
-    text-align: center;
-    font-size: 2.25rem;
-    color: #ffffff;
-}
-
-.project-info-media-col {
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    .project-info-media-col {
-        width: 30%;
-    }
-}
-
-.project-info-desc-col {
-    width: 100%;
-    padding: 1.5rem 0;
-}
-
-@media (min-width: 768px) {
-    .project-info-desc-col {
-        width: 70%;
-        padding: 0 0 0 3rem;
-    }
-}
-
-.project-info-media {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-}
-
-@media only all and (min-width: 480px) and (max-width: 768px) {
-    .project-info-media {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 480px;
-    }
-}
-
-.project-info-tags-container {
-    margin: 0 0 1.25rem 0;
-}
-
-.project-info-tag {
-    margin: 0 0.5rem 0.5rem 0;
-    padding: 0.25rem 0.6rem 0.25rem 0.6rem;
-    display: inline-block;
-    font-size: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.project-info-desc-container p,
-.project-info-desc-container a,
-.project-info-desc-container ul,
-.project-info-desc-container ol {
-    margin: 0 0 1rem 0;
-    font-size: 1.25rem;
-    color: #ffffff;
-}
-
-.project-info-dates {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.1rem;
-    font-style: italic;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.project-info-links-container {
-    margin: 2.5rem 0 0 0;
-}
-
-.project-info-link {
-    margin: 0 0.75rem 0.75rem 0;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    display: inline-block;
-    font-size: 1.35rem;
-    font-weight: normal;
-    border-radius: 4px;
-    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
-    background-color: #0055b2;
-    color: #ffffff;
-}
-
-.project-info-link:hover {
-    text-decoration: none;
-    background-color: #003c7c;
-    color: #ffffff;
-}
-
-.project-info-link-yt {
-    background-color: #cf2626;
-}
-
-.project-info-link-yt:hover {
-    background-color: #9b1d1d;
-}
-
-.project-info-link-gh {
-    background-color: #0f0f0f;
-}
-
-.project-info-link-gh:hover {
-    background-color: #000000;
-}
-
-.project-info-link-fa {
-    margin: 0 0.75rem 0 0;
-    font-weight: normal;
 }
