@@ -60,10 +60,8 @@
     Implements [bunny hopping](https://en.wikipedia.org/wiki/Strafing_(gaming)#Strafe_Jumping)
     and
     [trimping](http://www.fortress-forever.com/wiki/index.php?title=Movement:Trimping)
-    physics with fall damage in UE4.
-
-    Supports replication for use in multiplayer games and exposes variables for
-    use in Blueprint scripts.
+    physics with fall damage in UE4. Supports replication for use in
+    multiplayer games and exposes variables for use in Blueprint scripts.
   links:
     - url: "https://github.com/seandewar/UE4BunnyhopCharacter"
       type: "github"
@@ -76,6 +74,20 @@
       name: "Networking"
       type: "youtube"
 
+- name: "Remoter"
+  img_src: "/img/projects/sd5-remoter-sharp.png"
+  img_alt: "Remoter displaying the files on a remote system"
+  dates: "2013 - 2014"
+  tags:
+    - "C#"
+    - ".NET Framework"
+  short_desc: |
+    Client-server application that allows you to view the files and screen of a
+    remote computer. It also features real-time chat and requires password
+    authentication upon connecting.
+  links:
+    # TODO record a video
+
 - name: "City Defender"
   img_src: "/img/projects/city-defender-animated.gif"
   img_alt: "Shooting at asteroids in City Defender"
@@ -85,26 +97,44 @@
     - "SFML"
   short_desc: |
     A demo game where you must defend a city from falling asteroids with
-    increasing difficulty. The terrain is destructible and features some
-    procedural generation.
-
-    It was written in around 3 hours.
+    increasing speed. The terrain is destructible and features some
+    procedural generation. It was written in around 3 hours.
   links:
     - url: "https://github.com/seandewar/sdma3513demo"
       type: "github"
     - url: "https://www.youtube.com/watch?v=6Dj5wSjAwkc"
       type: "youtube"
 
-- name: "Remoter"
-  img_src: "/img/projects/sd5-remoter-sharp.png"
-  img_alt: "Remoter displaying the files on a remote system"
-  dates: "2013 - 2014"
+- name: "Cube 2 Cheats"
+  img_src: "/img/projects/cube2-cheats.png"
+  img_alt: "5 Kill-streak in Cube 2: Sauerbraten using the cheats"
+  dates: "2014"
   tags:
-    - "C#"
-    - ".NET Framework"
+    - "C++"
   short_desc: |
-    Server-client application that allows you to view the files & screen of a
-    remote computer. It also features real-time chat and requires password
-    authentication upon connecting.
+    Experimental cheats for [Cube 2: Sauerbraten](http://sauerbraten.org/).
+    Features [wallhack](https://en.wikipedia.org/wiki/Cheating_in_online_games#World-hacking),
+    [aimbot, triggerbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots)
+    and auto-jump.
+
+    _Not released for obvious reasons_.
   links:
-    # TODO links
+    - url: "https://www.youtube.com/watch?v=O3JUJorjXyw&t=22"
+      type: "youtube"
+
+- name: "Space Shooter"
+  img_src: "/img/projects/space-shooter.png"
+  img_alt: "The player engages enemy ships in Space Shooter"
+  dates: "April 2013"
+  tags:
+    - "C++"
+    - "SFML"
+  short_desc: |
+    Fast-paced space shooter with infinite waves of increasing difficulty.
+    Originally written in less than a day to experiment with the SFML 2.0
+    library.
+  links:
+    - url: "https://github.com/seandewar/SpaceShooter"
+      type: "github"
+    - url: "https://www.youtube.com/watch?v=G9GPidyrpb0"
+      type: "youtube"
