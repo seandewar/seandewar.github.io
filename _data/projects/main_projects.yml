@@ -20,11 +20,12 @@
     * A command-line interface for debugging programs.
     * Emulation controls for pausing and fast-forwarding gameplay on-demand.
     * The ability to import and export Visual Boy Advance .sav files.
+    * Support for games requiring Memory Bank Controllers 1, 2, 3 & 5.
   short_desc: |
     A Game Boy & Game Boy Color emulator for Windows and Linux.
     <br>
-    Features video, sound & joypad emulation, debugging tools, emulation
-    controls and save support.
+    Features video, sound & joypad emulation, debug tools, emulation controls,
+    save support and support for cartridge MBCs 1-3 & 5.
 
     It won the Computer Science prize at the University of Leicester.
   links:

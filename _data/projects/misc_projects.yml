@@ -1,1 +1,113 @@
-# TODO
+- name: "sd5nes"
+  img_src: "/img/projects/sd5nes-minus-world.png"
+  img_alt: "sd5nes running Super Mario Bros. (Minus World)"
+  dates: "October 2015 - January 2016"
+  tags:
+    - "C++"
+    - "SFML"
+    - "CMake"
+  short_desc: |
+    Emulator for the Nintendo Entertainment System featuring video and joypad
+    emulation. Supports most NROM & MMC1 games.
+  links:
+    - url: "https://github.com/seandewar/sd5nes"
+      type: "github"
+    - url: "https://www.youtube.com/watch?v=1sKSWIM63xo"
+      type: "youtube"
+
+- name: "sd5chip8"
+  img_src: "/img/projects/sd5chip8-maze.png"
+  img_alt: "sd5chip8 running a maze generation program"
+  dates: "2015"
+  tags:
+    - "C++"
+    - "SFML"
+    - "CMake"
+  short_desc: |
+    Interpreter for the CHIP-8 programming language with input, graphics &
+    sound support. Also fully supports VIP 2-page hi-res programs and partially
+    supports ETI-600 programs.
+  links:
+    - url: "https://github.com/seandewar/sd5chip8"
+      type: "github"
+
+- name: "2D Terrain Generation"
+  img_src: "/img/projects/2dworldgen.png"
+  img_alt: "2D terrain generated with sky lighting"
+  dates: "2011, 2012"
+  tags:
+    - "C#"
+    - "XNA"
+    - ".NET Framework"
+  short_desc: |
+    Procedural 2D terrain generation with basic lighting. Also features
+    client-server networking for downloading terrain and live chat.
+  links:
+    - url: "https://www.youtube.com/watch?v=6fU3Ktfe5XI"
+      type: "youtube"
+    - url: "https://www.youtube.com/watch?v=yNhhKOYGVwM"
+      name: "Plains (Old)"
+      type: "youtube"
+    - url: "https://www.youtube.com/watch?v=5M-ge7OCXoc"
+      name: "Desert (Old)"
+      type: "youtube"
+
+- name: "UE4 Bunny Hopping"
+  img_src: "/img/projects/ue4-bhop.png"
+  img_alt: "Bunny Hopping in Unreal Engine 4"
+  dates: "April, August 2015"
+  tags:
+    - "C++"
+    - "Unreal Engine"
+  short_desc: |
+    Implements [bunny hopping](https://en.wikipedia.org/wiki/Strafing_(gaming)#Strafe_Jumping)
+    and
+    [trimping](http://www.fortress-forever.com/wiki/index.php?title=Movement:Trimping)
+    physics with fall damage in UE4.
+
+    Supports replication for use in multiplayer games and exposes variables for
+    use in Blueprint scripts.
+  links:
+    - url: "https://github.com/seandewar/UE4BunnyhopCharacter"
+      type: "github"
+    - url: "https://www.youtube.com/watch?v=BxGJ_CxKJsk"
+      type: "youtube"
+    - url: "https://www.youtube.com/watch?v=1XMyPYwN0dE"
+      name: "Fall Damage"
+      type: "youtube"
+    - url: "https://www.youtube.com/watch?v=V64Lxqy93QY"
+      name: "Networking"
+      type: "youtube"
+
+- name: "City Defender"
+  img_src: "/img/projects/city-defender-animated.gif"
+  img_alt: "Shooting at asteroids in City Defender"
+  dates: "July 2016"
+  tags:
+    - "C++"
+    - "SFML"
+  short_desc: |
+    A demo game where you must defend a city from falling asteroids with
+    increasing difficulty. The terrain is destructible and features some
+    procedural generation.
+
+    It was written in around 3 hours.
+  links:
+    - url: "https://github.com/seandewar/sdma3513demo"
+      type: "github"
+    - url: "https://www.youtube.com/watch?v=6Dj5wSjAwkc"
+      type: "youtube"
+
+- name: "Remoter"
+  img_src: "/img/projects/sd5-remoter-sharp.png"
+  img_alt: "Remoter displaying the files on a remote system"
+  dates: "2013 - 2014"
+  tags:
+    - "C#"
+    - ".NET Framework"
+  short_desc: |
+    Server-client application that allows you to view the files & screen of a
+    remote computer. It also features real-time chat and requires password
+    authentication upon connecting.
+  links:
+    # TODO links
