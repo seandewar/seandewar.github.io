@@ -16,8 +16,8 @@
       type: "youtube"
 
 - name: "sd5chip8"
-  img_src: "/img/projects/sd5chip8-maze.png"
-  img_alt: "sd5chip8 running a maze generation program"
+  img_src: "/img/projects/sd5chip8-animated.gif"
+  img_alt: "sd5chip8 running Maze, Pong and Snake"
   dates: "2015"
   tags:
     - "C++"
@@ -82,11 +82,12 @@
     - "C#"
     - ".NET Framework"
   short_desc: |
-    Client-server application that allows you to view the files and screen of a
-    remote computer. It also features real-time chat and requires password
-    authentication upon connecting.
+    Client-server application for use on private networks that allows you to
+    view the files and screen of a remote computer. Features real-time chat and
+    requires password authentication upon connecting.
   links:
-    # TODO record a video
+    - url: "https://www.youtube.com/watch?v=zEKc1pU-IV4"
+      type: "youtube"
 
 - name: "City Defender"
   img_src: "/img/projects/city-defender-animated.gif"
@@ -105,23 +106,6 @@
     - url: "https://www.youtube.com/watch?v=6Dj5wSjAwkc"
       type: "youtube"
 
-- name: "Cube 2 Cheats"
-  img_src: "/img/projects/cube2-cheats.png"
-  img_alt: "5 Kill-streak in Cube 2: Sauerbraten using the cheats"
-  dates: "2014"
-  tags:
-    - "C++"
-  short_desc: |
-    Experimental cheats for [Cube 2: Sauerbraten](http://sauerbraten.org/).
-    Features [wallhack](https://en.wikipedia.org/wiki/Cheating_in_online_games#World-hacking),
-    [aimbot, triggerbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots)
-    and auto-jump.
-
-    _Not released for obvious reasons_.
-  links:
-    - url: "https://www.youtube.com/watch?v=O3JUJorjXyw&t=22"
-      type: "youtube"
-
 - name: "Space Shooter"
   img_src: "/img/projects/space-shooter.png"
   img_alt: "The player engages enemy ships in Space Shooter"
@@ -137,4 +121,21 @@
     - url: "https://github.com/seandewar/SpaceShooter"
       type: "github"
     - url: "https://www.youtube.com/watch?v=G9GPidyrpb0"
+      type: "youtube"
+
+- name: "Cube 2 Cheats"
+  img_src: "/img/projects/cube2-cheats.png"
+  img_alt: "5 Kill-streak in Cube 2: Sauerbraten using the cheats"
+  dates: "2014"
+  tags:
+    - "C++"
+  short_desc: |
+    Experimental cheats for [Cube 2: Sauerbraten](http://sauerbraten.org/).
+    Features [wallhack](https://en.wikipedia.org/wiki/Cheating_in_online_games#World-hacking),
+    [aimbot, triggerbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots)
+    and auto-jump.
+
+    _Not released for obvious reasons_.
+  links:
+    - url: "https://www.youtube.com/watch?v=O3JUJorjXyw&t=22"
       type: "youtube"

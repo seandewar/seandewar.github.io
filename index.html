@@ -36,7 +36,7 @@ styles:
         <div class="content-container">
             <div class="misc-projects-container">
                 {%- for project in site.data.projects.misc_projects -%}
-                {%- include projects/misc_project_info.html project=project -%}
+                    {%- include projects/misc_project_info.html project=project -%}
                 {%- endfor -%}
             </div>
         </div>
