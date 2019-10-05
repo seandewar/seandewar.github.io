@@ -1,6 +1,6 @@
 /* Bio (inside main content) */
 .bio-title {
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 1.5rem 0;
     font-size: 3rem;
     text-align: center;
 }
@@ -20,14 +20,14 @@
 
 /* Projects */
 .projects-title-container {
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem;
     overflow: auto; /* stop margins collapsing with child title header etc. */
     background-image: linear-gradient(-180deg, #101010, #202020);
     color: #ffffff;
 }
 
 .project-bg-container {
-    padding: 2em 1rem 2rem 1rem;
+    padding: 2em 1rem;
     background-attachment: fixed; /* what can I say, I loooove parallax! */
     background-position: center center;
     background-size: cover;
@@ -36,8 +36,8 @@
 }
 
 .project-info-container {
-    margin: 1rem 0 1rem 0;
-    padding: 2rem 2rem 2rem 2rem;
+    margin: 1rem 0;
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     border-radius: 12px;
@@ -46,7 +46,7 @@
 }
 
 .project-info-title {
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.5rem;
     width: 100%;
     text-align: center;
     font-size: 2.25rem;
@@ -90,19 +90,19 @@
 }
 
 .project-info-dates {
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.5rem;
     font-size: 1.1rem;
     font-style: italic;
     color: rgba(255, 255, 255, 0.8);
 }
 
 .project-info-tags-container {
-    margin: 0 0 1.25rem 0;
+    margin: 0 0 1.25rem;
 }
 
 .project-info-tag {
     margin: 0 0.5rem 0.5rem 0;
-    padding: 0.25rem 0.6rem 0.25rem 0.6rem;
+    padding: 0.25rem 0.6rem;
     display: inline-block;
     font-size: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -111,17 +111,17 @@
 }
 
 .project-info-desc-container > * {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem;
     font-size: 1.25rem;
 }
 
 .project-info-links-container {
-    margin: 2.5rem 0 0 0;
+    margin: 2.5rem 0 0;
 }
 
 .project-info-link {
     margin: 0 0.75rem 0.75rem 0;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem;
     display: inline-block;
     font-size: 1.35rem;
     font-weight: normal;
@@ -179,7 +179,7 @@
 }
 
 .misc-project-info-inner-container {
-    margin: 0.75rem 0.75rem auto 0.75rem;
+    margin: 0.75rem 0.75rem auto;
     overflow: hidden;
     max-width: 305px;
     border-radius: 12px;
@@ -194,29 +194,29 @@
 }
 
 .misc-project-info-desc-row {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
     width: 100%;
     text-align: center;
     background-image: linear-gradient(0deg, #202020, #1c1c1c);
 }
 
 .misc.project-info-title {
-    margin: 0 0 0.3rem 0;
+    margin: 0 0 0.3rem;
     font-size: 1.5rem;
 }
 
 .misc.project-info-dates {
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.5rem;
     font-size: 0.9rem;
 }
 
 .misc.project-info-tags-container {
-    margin: 0 0 0.9rem 0;
+    margin: 0 0 0.9rem;
 }
 
 .misc.project-info-tag {
     margin: 0 0.3rem 0.3rem 0;
-    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    padding: 0.2rem 0.4rem;
     font-size: 0.85rem;
 }
 
@@ -225,11 +225,11 @@
 }
 
 .misc.project-info-links-container {
-    margin: 1.25rem 0 0 0;
+    margin: 1.25rem 0 0;
 }
 
 .misc.project-info-link {
-    margin: 0 0.3em 0.5rem 0.3rem;
-    padding: 0.4rem 0.65rem 0.4rem 0.65rem;
+    margin: 0 0.3em 0.5rem;
+    padding: 0.4rem 0.65rem;
     font-size: 1rem;
 }
