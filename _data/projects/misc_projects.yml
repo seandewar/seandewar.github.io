@@ -89,6 +89,31 @@
     - url: "https://www.youtube.com/watch?v=zEKc1pU-IV4"
       type: "youtube"
 
+- name: "DLL Injection Cheats"
+  img_src: "/img/projects/openspades-aimbot.png"
+  img_alt: "All headshot kill-feed in OpenSpades using the aimbot"
+  dates: "2014"
+  tags:
+    - "C++"
+    - "Windows API"
+  short_desc: |
+    Experimental cheats for [Cube 2: Sauerbraten](http://sauerbraten.org/) and
+    [OpenSpades](https://openspades.yvt.jp/).
+    Features [wallhack](https://en.wikipedia.org/wiki/Cheating_in_online_games#World-hacking),
+    [triggerbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots),
+    insta-killing & auto-jump for Cube 2 and an
+    [aimbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots)
+    for OpenSpades.
+
+    _Not released for obvious reasons_.
+  links:
+    - url: "https://www.youtube.com/watch?v=O3JUJorjXyw&t=22"
+      name: "Cube 2"
+      type: "youtube"
+    - url: "https://www.youtube.com/watch?v=CNWDCJdFC40"
+      name: "OpenSpades"
+      type: "youtube"
+
 - name: "City Defender"
   img_src: "/img/projects/city-defender-animated.gif"
   img_alt: "Shooting at asteroids in City Defender"
@@ -121,21 +146,4 @@
     - url: "https://github.com/seandewar/SpaceShooter"
       type: "github"
     - url: "https://www.youtube.com/watch?v=G9GPidyrpb0"
-      type: "youtube"
-
-- name: "Cube 2 Cheats"
-  img_src: "/img/projects/cube2-cheats.png"
-  img_alt: "5 Kill-streak in Cube 2: Sauerbraten using the cheats"
-  dates: "2014"
-  tags:
-    - "C++"
-  short_desc: |
-    Experimental cheats for [Cube 2: Sauerbraten](http://sauerbraten.org/).
-    Features [wallhack](https://en.wikipedia.org/wiki/Cheating_in_online_games#World-hacking),
-    [aimbot, triggerbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots)
-    and auto-jump.
-
-    _Not released for obvious reasons_.
-  links:
-    - url: "https://www.youtube.com/watch?v=O3JUJorjXyw&t=22"
       type: "youtube"
