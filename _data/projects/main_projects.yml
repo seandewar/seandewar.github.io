@@ -110,15 +110,15 @@
   bg_styles: "background-image: url('/img/projects/talisman-bg.png')"
   dates: "October - November 2016"
   tags:
-    - "C"
+    - "C++"
     - "Adafruit"
     - "Arduino Uno"
     - "Competition"
   desc: |
     A device developed alongside 2 University of Leicester students as part of
-    [Thales Group](https://www.thalesgroup.com/en)'s 2-week-long Project Arduino competition.
-    It is designed to be a cost-effective portable tool for aiding lost
-    travellers.
+    [Thales Group](https://www.thalesgroup.com/en)'s 2-week-long Project
+    Arduino competition.  It is designed to be a cost-effective portable tool
+    for aiding lost travellers.
     <br>
     The device was selected over other campus entries for submission into the
     UK finals.
@@ -129,11 +129,10 @@
     * Radio-based communication using Morse code.
   short_desc: |
     A device developed with 2 other University of Leicester students for
-    [Thales](https://www.thalesgroup.com/en)' 2-week Project Arduino
-    event.
+    [Thales](https://www.thalesgroup.com/en)' 2-week Project Arduino event.
     <br>
-    Features fingerprint biometrics, GPS facilities and
-    radio-based Morse code communication.
+    Features fingerprint biometrics, GPS facilities and radio-based Morse code
+    communication.
 
     It beat the other campus entries, entering into the UK finals.
   links:
