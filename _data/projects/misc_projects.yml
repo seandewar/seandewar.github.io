@@ -48,6 +48,9 @@
     - url: "https://www.youtube.com/watch?v=5M-ge7OCXoc"
       name: "Desert (Old)"
       type: "youtube"
+    - url: "https://www.youtube.com/watch?v=yNhhKOYGVwM"
+      name: "Woods (Old)"
+      type: "youtube"
 
 - name: "UE4 Bunny Hopping"
   img_src: "/img/projects/ue4-bhop.png"
@@ -147,6 +150,20 @@
       type: "github"
     - url: "https://www.youtube.com/watch?v=G9GPidyrpb0"
       type: "youtube"
+
+- name: "Mandelbrot Renderer"
+  img_src: "/img/projects/sd5-fractal-mandelbrot.png"
+  img_alt: "Mandelbrot fractal render (centered approx. -0.74 + 0.183i, 400 iterations)"
+  dates: "2014"
+  tags:
+    - "C#"
+    - ".NET Framework"
+  short_desc: |
+    Renders [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
+    fractals. Provides some configuration options.
+  links:
+    - url: "https://github.com/seandewar/SD5Fractal"
+      type: "github"
 
 - name: "rustedbrain"
   img_src: "/img/projects/rustedbrain-sierpinski.png"
