@@ -1,0 +1,14 @@
+<div class="{{ include.info_class }} post-info-container">
+    {%- if include.exclude_title != true -%}
+        <h1 class="{{ include.info_class }} post-info-title">{{ include.post.title }}</h1>
+    {%- endif -%}
+    <div class="{{ include.info_class }} post-info-minor-details-container">
+        <p class="{{ include.info_class }} post-info-date"><span class="far fa-clock"></span> {{ include.post.date | date_to_long_string: "ordinal" }}</p>
+        <p class="{{ include.info_class }} post-info-author"><span class="fas fa-user"></span> {% if include.post.author %}{{ include.post.author }}{% else %}{{ site.author }}{% endif %}</p>
+        <div class="{{ include.info_class }} post-info-tags-container">
+            {%- for tag in include.post.tags -%}
+                <p class="{{ include.info_class }} post-info-tag">{{ tag }}</p>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>

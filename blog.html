@@ -7,22 +7,20 @@ styles: ["/css/post.css"]
     <div class="content-container">
         <h1>Blog Posts</h1>
         {%- if site.posts.size > 0 -%}
-            <ul>
+            <ul class="post-list">
                 {%- for post in site.posts -%}
-                    <li class="post-info-preview-container">
-                        <h2 class="preview post-info-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <div class="preview post-info-date-author-container">
-                            <p class="preview post-info-date"><span class="far fa-clock"></span> {{ post.date | date_to_long_string: "ordinal" }}</p>
-                            <p class="preview post-info-author"><span class="fas fa-user"></span> {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</p>
-                            <div class="preview post-info-tags-container">
-                                {%- for tag in post.tags -%}
-                                    <p class="preview post-info-tag">{{ tag }}</p>
-                                {%- endfor -%}
-                            </div>
-                        </div>
-                        <blockquote class="post-info-preview-excerpt">
-                            {{ post.excerpt | strip_html | normalize_whitespace }}
-                        </blockquote>
+                    <li class="post-preview-container">
+                        <h2 class="post-preview-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        {% include /posts/post_info.html
+                            exclude_title=true
+                            info_class="preview"
+                            post=post %}
+                        {%- if post.excerpt -%}
+                            <blockquote class="post-preview-excerpt">
+                                {{ post.excerpt | strip_html | normalize_whitespace }}
+                                <a class="post-preview-excerpt-link" href="{{ post.url }}">...</a>
+                            </blockquote>
+                        {%- endif -%}
                     </li>
                 {%- endfor -%}
             </ul>

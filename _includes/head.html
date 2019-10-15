@@ -10,7 +10,7 @@
 
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
-    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' }}">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="apple-touch-icon image_src" href="/img/apple-touch-icon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap" rel="stylesheet">

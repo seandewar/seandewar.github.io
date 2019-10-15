@@ -4,18 +4,7 @@ styles: ["/css/post.css"]
 ---
 <section class="main-content">
     <article class="content-container">
-        <div class="post-info-container">
-            <h1 class="post-info-title">{{ page.title }}</h1>
-            <div class="post-info-date-author-container">
-                <p class="post-info-date"><span class="far fa-clock"></span> {{ page.date | date_to_long_string: "ordinal" }}</p>
-                <p class="post-info-author"><span class="fas fa-user"></span> {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</p>
-                <div class="post-info-tags-container">
-                    {%- for tag in page.tags -%}
-                        <p class="post-info-tag">{{ tag }}</p>
-                    {%- endfor -%}
-                </div>
-            </div>
-        </div>
+        {% include /posts/post_info.html post=page %}
         <hr>
         <div class="post-content-container">
             {{ content }}
