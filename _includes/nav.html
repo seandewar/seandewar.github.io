@@ -2,7 +2,7 @@
     <div class="content-container">
         <ul class="nav-list">
             <li><a class="nav-home nav-link" href="/">Sean Dewar</a></li>
-            <li><a class="nav-link" href="/blog">Blog</a></li>
+            {% if site.posts.size > 0 %}<li><a class="nav-link" href="/blog">Blog</a></li>{% endif %}
             <li class="nav-right-align"><a class="nav-link" href="https://github.com/seandewar" title="My GitHub Profile"><span class="font-weight-normal fab fa-github"></span></a></li>
             <li><a class="nav-link" href="https://www.linkedin.com/in/seandewar/" title="My LinkedIn Profile"><span class="font-weight-normal fab fa-linkedin"></span></a></li>
         </ul>
