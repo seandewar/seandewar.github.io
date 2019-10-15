@@ -1,0 +1,33 @@
+---
+layout: default
+title: Blog
+styles: ["/css/post.css"]
+---
+<section class="main-content">
+    <div class="content-container">
+        <h1>Blog Posts</h1>
+        {%- if site.posts.size > 0 -%}
+            <ul>
+                {%- for post in site.posts -%}
+                    <li class="post-info-preview-container">
+                        <h2 class="preview post-info-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <div class="preview post-info-date-author-container">
+                            <p class="preview post-info-date"><span class="far fa-clock"></span> {{ post.date | date_to_long_string: "ordinal" }}</p>
+                            <p class="preview post-info-author"><span class="fas fa-user"></span> {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</p>
+                            <div class="preview post-info-tags-container">
+                                {%- for tag in post.tags -%}
+                                    <p class="preview post-info-tag">{{ tag }}</p>
+                                {%- endfor -%}
+                            </div>
+                        </div>
+                        <blockquote class="post-info-preview-excerpt">
+                            {{ post.excerpt | strip_html | normalize_whitespace }}
+                        </blockquote>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        {%- else -%}
+            <p>There's nothing here... <em>yet!</em></p>
+        {%- endif -%}
+    </div>
+</section>

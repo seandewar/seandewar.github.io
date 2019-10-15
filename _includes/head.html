@@ -5,20 +5,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="shortcut icon" href="{{ "img/favicon.ico" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon image_src" href="{{ "img/apple-touch-icon.png" | prepend: site.baseurl }}">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' }}">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon image_src" href="/img/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="/css/styles.css">
+    {%- if layout.styles -%}
+        {%- for style_url in layout.styles -%}
+            <link rel="stylesheet" href="{{ style_url }}">
+        {%- endfor -%}
+    {%- endif -%}
     {%- if page.styles -%}
         {%- for style_url in page.styles -%}
-            <link rel="stylesheet" href="{{ style_url | prepend: site.baseurl }}">
+            <link rel="stylesheet" href="{{ style_url }}">
         {%- endfor -%}
     {%- endif -%}
 </head>

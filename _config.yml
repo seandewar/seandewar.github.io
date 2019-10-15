@@ -6,5 +6,6 @@ author: "Sean Dewar"
 url: "https://seandewar.github.io"
 baseurl: ""
 
-timezone: "Europe/London"
 google_analytics: "UA-148899653-1"
+timezone: "Europe/London"
+excerpt_separator: "<!--more-->"

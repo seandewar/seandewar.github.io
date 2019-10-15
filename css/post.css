@@ -1,0 +1,40 @@
+.post-info-container {
+    margin: 0 0 2rem;
+}
+
+.post-info-date-author-container {
+    margin: 0.5rem 0 1rem;
+    font-size: 1.1rem;
+}
+
+.post-info-date {
+    margin: 0 1rem 0.5rem 0;
+    display: inline-block;
+    font-style: italic;
+}
+
+.post-info-author {
+    margin: 0 1rem 1rem 0;
+    display: inline-block;
+}
+
+.post-info-tags-container {
+    display: inline-block;
+}
+
+.post-info-tag {
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.2rem 0.6rem;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid #202020;
+    border-radius: 4px;
+}
+
+.preview.post-info-date-author-container {
+    margin-bottom: 0.5rem;
+}
+
+.post-info-preview-excerpt {
+    margin: 0;
+}

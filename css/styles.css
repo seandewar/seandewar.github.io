@@ -1,25 +1,73 @@
 /* Page & Body defaults */
+@import "code.css"; /* code snippets & syntax highlighting */
+
 * {
     box-sizing: border-box; /* make sure padding doesn't affect dimensions */
-    font-family: 'Open Sans', sans-serif; /* <3 open sans */
     word-wrap: break-word;
 }
 
 body {
     padding: 0;
     margin: 0;
+    min-width: 320px; /* min supported width, give up & scrollbar if smaller */
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif; /* <3 open sans */
     background-color: #202020;
     color: #ffffff;
 }
 
-body a {
+a {
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
 }
 
-body a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+h1 {
+    margin: 1.25rem 0;
+    font-size: 2.5rem;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.4rem;
+}
+
+hr {
+    margin: 2rem 0;
+    height: 1px;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 /* Navbar */
@@ -38,9 +86,9 @@ body a:hover {
     padding: 0;
     margin: 0;
     display: flex;
+    overflow: auto;
     list-style-type: none;
     white-space: nowrap;
-    overflow: hidden;
 }
 
 .nav-right-align {
@@ -49,7 +97,8 @@ body a:hover {
 
 .nav-link {
     display: block;
-    padding: 1rem;
+    padding: 1rem 1.25rem;
+    font-weight: normal;
 }
 
 .nav-link:hover {
@@ -58,9 +107,15 @@ body a:hover {
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
 }
 
+.nav-home {
+    font-weight: bold;
+}
+
 /* Main content */
 .main-content {
-    padding: 3rem 2rem;
+    padding: 5rem 2.5rem 4rem;
+    overflow: hidden;
+    font-size: 1.25rem;
     background-color: #ffffff;
     color: #202020;
 }
@@ -71,6 +126,34 @@ body a:hover {
 
 .main-content a:hover {
     color: #003c7c;
+}
+
+.main-content table {
+    display: block;
+    overflow: auto;
+}
+
+.main-content th, td {
+    padding: 0.3rem 1.5rem;
+    border: 1px solid #9f9f9f;
+}
+
+.main-content th {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.main-content hr {
+    margin: 2.25rem 0;
+    background-color: #9f9f9f;
+}
+
+.main-content blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.25rem 1.5rem;
+    border-left: 3px solid #9f9f9f;
+    background-color: #f9f9f9;
 }
 
 .content-container {
@@ -84,6 +167,14 @@ body a:hover {
     font-weight: normal !important;
 }
 
+.task-list-item {
+    list-style: none;
+}
+
+.task-list-item-checkbox {
+    margin: 0 1rem 0 0;
+}
+
 /* Footer */
 .footer-content {
     padding: 1.5rem 2rem 1rem;
@@ -92,5 +183,5 @@ body a:hover {
 .footer-text {
     margin: 0 0 0.25rem;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
