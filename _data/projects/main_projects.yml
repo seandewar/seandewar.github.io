@@ -1,3 +1,32 @@
+- name: "RuneLite Contributions"
+  img_src: "/img/projects/runelite-run-energy.png"
+  img_alt: "RuneLite's Run Energy plugin tooltip"
+  bg_styles: "background-image: url('/img/projects/runelite-contrib-bg.png')"
+  dates: "August 2018, April - May 2019"
+  tags:
+    - "Java"
+    - "Contributor"
+  desc: |
+    The most popular 3rd-party client for the MMORPG [Old School RuneScape](https://oldschool.runescape.com).
+    It has over 13 million downloads and usually sports 50,000+ simultaneous
+    users.
+
+    Contributions include:
+    * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
+    * Extra configurability for some existing plugins.
+    * Various code refactors and fixes.
+  short_desc: |
+    Popular 3rd-party [Old School RuneScape](https://oldschool.runescape.com)
+    game client with 13 million+ downloads, averaging 50,000+ simultaneous
+    users.
+
+    Contributed [the Run Energy plugin in v1.4.15](https://runelite.net/blog/show/2018-08-30-1.4.15-Release),
+    plugin enhancements and code refactors & fixes.
+  links:
+    - url: "https://github.com/runelite/runelite"
+      type: "github"
+    - url: "https://runelite.net/"
+
 - name: "sdgbc"
   img_src: "/img/projects/sdgbc-animated.gif"
   img_alt: "sdgbc running Pokémon - Crystal Version"
@@ -42,68 +71,6 @@
       name: "Viva Slides"
       type: "pdf"
 
-- name: "RuneLite Contributions"
-  img_src: "/img/projects/runelite-run-energy.png"
-  img_alt: "RuneLite's Run Energy plugin tooltip"
-  bg_styles: "background-image: url('/img/projects/runelite-contrib-bg.png')"
-  dates: "August 2018, April - May 2019"
-  tags:
-    - "Java"
-    - "Contributor"
-  desc: |
-    The most popular 3rd-party client for the MMORPG [Old School RuneScape](https://oldschool.runescape.com).
-    It has over 13 million downloads and usually sports 50,000+ simultaneous
-    users.
-
-    Contributions include:
-    * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
-    * Extra configurability for some existing plugins.
-    * Various code refactors and fixes.
-  short_desc: |
-    Popular 3rd-party [Old School RuneScape](https://oldschool.runescape.com)
-    game client with 13 million+ downloads, averaging 50,000+ simultaneous
-    users.
-
-    Contributed [the Run Energy plugin in v1.4.15](https://runelite.net/blog/show/2018-08-30-1.4.15-Release),
-    plugin enhancements and code refactors & fixes.
-  links:
-    - url: "https://github.com/runelite/runelite"
-      type: "github"
-    - url: "https://runelite.net/"
-
-- name: "The File System Dungeon"
-  img_src: "/img/projects/fs-dungeon.png"
-  img_alt: "The File System Dungeon"
-  bg_styles: "background-image: url('/img/projects/fs-dungeon-bg.png')"
-  dates: "July - August 2016"
-  tags:
-    - "C++"
-    - "SFML"
-    - "CMake"
-    - "Job"
-  desc: |
-    An educational dungeon crawler game developed with support from
-    [Santander Universities](https://www.santander.co.uk/uk/santander-universities)
-    that aims to teach students the basics on navigating UNIX-like file systems.
-
-    It features:
-    * Procedurally generated dungeons, whose layout mimics that of a basic
-    UNIX-like file system.
-    * Numerous enemies to fight and items to loot.
-    * A scaling objective system; difficulty increases as players progress.
-  short_desc: |
-    Educational dungeon crawler game developed with support from
-    [Santander Universities](https://www.santander.co.uk/uk/santander-universities).
-    Aims to teach students basic UNIX file system navigation skills.
-
-    Features procedurally generated dungeons, many items & enemies and an
-    objective system with progressing difficulty.
-  links:
-    - url: "https://github.com/seandewar/UoLEduGame"
-      type: "github"
-    - url: "https://www.youtube.com/watch?v=7tGp4FgdIsc"
-      type: "youtube"
-
 - name: "The Talisman"
   img_src: "/img/projects/talisman.png"
   img_alt: "The Talisman"
@@ -138,3 +105,36 @@
   links:
     - url: "https://github.com/seandewar/backpack_project_arduino"
       type: "github"
+
+- name: "The File System Dungeon"
+  img_src: "/img/projects/fs-dungeon.png"
+  img_alt: "The File System Dungeon"
+  bg_styles: "background-image: url('/img/projects/fs-dungeon-bg.png')"
+  dates: "July - August 2016"
+  tags:
+    - "C++"
+    - "SFML"
+    - "CMake"
+    - "Job"
+  desc: |
+    An educational dungeon crawler game developed with support from
+    [Santander Universities](https://www.santander.co.uk/uk/santander-universities)
+    that aims to teach students the basics on navigating UNIX-like file systems.
+
+    It features:
+    * Procedurally generated dungeons, whose layout mimics that of a basic
+    UNIX-like file system.
+    * Numerous enemies to fight and items to loot.
+    * A scaling objective system; difficulty increases as players progress.
+  short_desc: |
+    Educational dungeon crawler game developed with support from
+    [Santander Universities](https://www.santander.co.uk/uk/santander-universities).
+    Aims to teach students basic UNIX file system navigation skills.
+
+    Features procedurally generated dungeons, many items & enemies and an
+    objective system with progressing difficulty.
+  links:
+    - url: "https://github.com/seandewar/UoLEduGame"
+      type: "github"
+    - url: "https://www.youtube.com/watch?v=7tGp4FgdIsc"
+      type: "youtube"
