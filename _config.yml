@@ -1,7 +1,10 @@
 title: "Sean Dewar"
 logo: "/img/me-circle-border.png"
-description: "Sean Dewar's Personal Website"
 author: "Sean Dewar"
+description: >-
+  Sean Dewar is a British Computer Science graduate with 1st-class honours who
+  has been programming since childhood, working on many personal and
+  open-source projects over the years.
 
 url: "https://seandewar.github.io"
 baseurl: ""
