@@ -1,3 +1,20 @@
+- name: "Programming Challenges"
+  dates: "2018, October 2019 - Present"
+  tags:
+    - "C++"
+    - "Python"
+    - "Java"
+    - "Rust"
+    - "Misc."
+  short_desc: |
+    Occasionally, I enjoy solving programming challenges on
+    [Leetcode](https://leetcode.com/) (and sometimes,
+    [Hackerrank](https://www.hackerrank.com/)). My solutions with comments are
+    available on [GitHub](https://github.com/seandewar/challenge-solutions).
+  links:
+    - url: "https://github.com/seandewar/challenge-solutions"
+      type: "github"
+
 - name: "sd5nes"
   img_src: "/img/projects/sd5nes-minus-world.png"
   img_alt: "sd5nes running Super Mario Bros. (Minus World)"

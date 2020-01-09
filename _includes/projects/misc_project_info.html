@@ -1,7 +1,11 @@
+{%- assign img_src = '/img/projects/generic.png' -%}
+{%- if include.project.img_src -%}
+    {%- assign img_src = include.project.img_src -%}
+{%- endif -%}
 <!-- Misc: {{ include.project.name }} -->
 <div id="{{ include.project.name | slugify: 'ascii' }}" class="misc-project-info-container">
     <div class="misc-project-info-inner-container">
-        <img class="misc-project-info-media" src="{{ include.project.img_src }}" alt="{{ include.project.img_alt }}">
+        <img class="misc-project-info-media" src="{{ img_src }}" alt="{{ include.project.img_alt }}">
         <div class="misc-project-info-desc-row">
             <h3 class="misc project-info-title">{{ include.project.name }}</h3>
             <p class="misc project-info-dates">{{ include.project.dates }}</p>
