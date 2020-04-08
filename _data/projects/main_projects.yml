@@ -2,14 +2,14 @@
   img_src: "/img/projects/runelite-run-energy.png"
   img_alt: "RuneLite's Run Energy plugin tooltip"
   bg_styles: "background-image: url('/img/projects/runelite-contrib-bg.png')"
-  dates: "August 2018, April - May 2019"
+  dates: "August 2018, May 2019, March 2020"
   tags:
     - "Java"
     - "Contributor"
   desc: |
     The most popular 3rd-party client for the MMORPG [Old School RuneScape](https://oldschool.runescape.com).
-    It has over 13 million downloads and usually sports 50,000+ simultaneous
-    users.
+    It has over 13 million downloads and usually sports around 100,000
+    simultaneous users.
 
     Contributions include:
     * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
@@ -17,13 +17,16 @@
     * Various code refactors and fixes.
   short_desc: |
     Popular 3rd-party [Old School RuneScape](https://oldschool.runescape.com)
-    game client with 13 million+ downloads, averaging 50,000+ simultaneous
+    game client with 13 million+ downloads and around 100,000 simultaneous
     users.
 
     Contributed [the Run Energy plugin in v1.4.15](https://runelite.net/blog/show/2018-08-30-1.4.15-Release),
     plugin enhancements and code refactors & fixes.
   links:
     - url: "https://github.com/runelite/runelite"
+      type: "github"
+    - url: "https://github.com/runelite/runelite/pulls?q=is%3Amerged+is%3Apr+author%3Aseandewar"
+      name: "Merged PRs"
       type: "github"
     - url: "https://runelite.net/"
 
