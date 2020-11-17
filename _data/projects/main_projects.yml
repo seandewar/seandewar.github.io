@@ -1,34 +1,38 @@
-- name: "RuneLite Contributions"
+- name: "Open Source Contributions"
   img_src: "/img/projects/runelite-run-energy.png"
   img_alt: "RuneLite's Run Energy plugin tooltip"
   bg_styles: "background-image: url('/img/projects/runelite-contrib-bg.png')"
-  dates: "Occasionally, since August 2018"
+  dates: "August 2018 - Present"
   tags:
+    - "C"
     - "Java"
-    - "Contributor"
+    - "Lua"
+    - "Vim Script"
+    - "Open Source"
   desc: |
-    The most popular 3rd-party client for the MMORPG [Old School RuneScape](https://oldschool.runescape.com).
-    It has over 13 million downloads and usually sports around 100,000
-    simultaneous users.
+    Notably contributed to [RuneLite](https://runelite.net/), the most popular
+    3rd-party client for the MMORPG [Old School RuneScape](https://oldschool.runescape.com),
+    with over 13 million downloads and around 150,000 simultaneous users.
 
-    Contributions include:
+    These contributions include:
     * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
     * Extra configurability for some existing plugins.
     * Various code refactors and fixes.
-  short_desc: |
-    Popular 3rd-party [Old School RuneScape](https://oldschool.runescape.com)
-    game client with 13 million+ downloads and around 100,000 simultaneous
-    users.
 
-    Contributed [the Run Energy plugin in v1.4.15](https://runelite.net/blog/show/2018-08-30-1.4.15-Release),
-    plugin enhancements and code refactors & fixes.
+    Contributions to other projects include improvements to plugins for the
+    [Vim](https://www.vim.org/) and [Neovim](https://neovim.io/) text editors,
+    along with ports of Vim patches to Neovim.
+  short_desc: |
+    Notably contributed to [RuneLite](https://runelite.net/), a popular
+    3rd-party [Old School RuneScape](https://oldschool.runescape.com) game
+    client with 13 million+ downloads and 150,000+ simultaneous users.
+
+    Also contributed to other projects such as [Vim](https://www.vim.org/) and
+    [Neovim](https://neovim.io/).
   links:
-    - url: "https://github.com/runelite/runelite"
+    - url: "https://github.com/search?o=desc&q=author%3Aseandewar&s=created&type=Issues"
+      name: "All Contributions"
       type: "github"
-    - url: "https://github.com/runelite/runelite/pulls?q=is%3Amerged+is%3Apr+author%3Aseandewar"
-      name: "Merged PRs"
-      type: "github"
-    - url: "https://runelite.net/"
 
 - name: "sdgbc"
   img_src: "/img/projects/sdgbc-animated.gif"
