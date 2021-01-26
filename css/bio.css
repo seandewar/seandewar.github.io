@@ -107,7 +107,7 @@
 @media (min-width: 768px) {
     .project-info-desc-col {
         width: 70%;
-        padding: 0 0 0 3rem;
+        padding: 0 0 0 2.6rem;
     }
 }
 
@@ -215,7 +215,7 @@
 }
 
 .misc-project-info-inner-container {
-    margin: 0.75rem 0.75rem auto;
+    margin: 0.9rem 0.9rem auto;
     overflow: hidden;
     max-width: 305px;
     border-radius: 12px;
@@ -246,7 +246,7 @@
 }
 
 .misc.project-info-tags-container {
-    margin: 0 0 0.9rem;
+    margin: 0 0 0.75rem;
 }
 
 .misc.project-info-tag {
