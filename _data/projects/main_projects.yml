@@ -10,25 +10,25 @@
     - "Vim Script"
     - "Open Source"
   desc: |
-    Notably contributed to [RuneLite](https://runelite.net/), the most popular
-    3rd-party client for the MMORPG [Old School RuneScape](https://oldschool.runescape.com),
-    with over 13 million downloads and around 150,000 simultaneous users.
-
-    These contributions include:
-    * The Run Energy plugin; [featured in the 1.4.15 release](https://runelite.net/blog/show/2018-08-30-1.4.15-Release).
-    * Extra configurability for some existing plugins.
-    * Various code refactors and fixes.
-
-    Contributions to other projects include improvements to plugins for the
-    [Vim](https://www.vim.org/) and [Neovim](https://neovim.io/) text editors,
-    along with ports of Vim patches to Neovim.
+    Contributed to many open source projects including:
+    * [RuneLite](https://runelite.net/): the most used 3rd-party client for
+    [Old School RuneScape](https://oldschool.runescape.com), averaging 100,000+
+    simultaneous users.
+    * [Vim](https://www.vim.org/): a very popular modal text editor with a 
+    [30 year history](https://en.wikipedia.org/wiki/Vim_(text_editor)); comes
+    pre-installed on many Unix-derived systems.
+    * [Neovim](https://neovim.io/): a popular fork of Vim that adds modern
+    features such as [LSP support](https://microsoft.github.io/language-server-protocol/)
+    and aims to refactor the code and maximize extensibility.
+    * ...and others!
   short_desc: |
-    Notably contributed to [RuneLite](https://runelite.net/), a popular
-    3rd-party [Old School RuneScape](https://oldschool.runescape.com) game
-    client with 13 million+ downloads and 150,000+ simultaneous users.
-
-    Also contributed to other projects such as [Vim](https://www.vim.org/) and
-    [Neovim](https://neovim.io/).
+    Contributed to many projects including:
+    * [RuneLite](https://runelite.net/): the most used 3rd-party client for
+    [Old School RuneScape](https://oldschool.runescape.com).
+    * [Vim](https://www.vim.org/): a very popular modal text editor; comes
+    pre-installed on many Unix-derived systems.
+    * [Neovim](https://neovim.io/): a popular Vim modernization fork.
+    * ...and others!
   links:
     - url: "https://github.com/search?o=desc&q=author%3Aseandewar&s=created&type=Issues"
       name: "All Contributions"
@@ -37,7 +37,7 @@
 - name: "sdgbc"
   img_src: "/img/projects/sdgbc-animated.gif"
   img_alt: "sdgbc running Pokémon - Crystal Version"
-  bg_styles: "background-image: url('/img/projects/sdgbc-bg.png')"
+  bg_styles: "background-image: url('/img/projects/sdgbc-bg.jpg')"
   dates: "September 2017 - May 2018"
   tags:
     - "C++"
@@ -79,9 +79,9 @@
       type: "pdf"
 
 - name: "The Talisman"
-  img_src: "/img/projects/talisman.png"
+  img_src: "/img/projects/talisman.jpg"
   img_alt: "The Talisman"
-  bg_styles: "background-image: url('/img/projects/talisman-bg.png')"
+  bg_styles: "background-image: url('/img/projects/talisman-bg.jpg')"
   dates: "October - November 2016"
   tags:
     - "C++"
@@ -114,7 +114,7 @@
       type: "github"
 
 - name: "The File System Dungeon"
-  img_src: "/img/projects/fs-dungeon.png"
+  img_src: "/img/projects/fs-dungeon.jpg"
   img_alt: "The File System Dungeon"
   bg_styles: "background-image: url('/img/projects/fs-dungeon-bg.png')"
   dates: "July - August 2016"

@@ -1,0 +1,338 @@
+/* Beth & Josh's Wedding Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Delius&family=Dancing+Script&family=Playfair+Display&display=swap');
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    font-family: 'Delius', sans-serif;
+    background-color: #fbf7f4;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/img/wedding/leaves-bg.jpg");
+}
+
+p {
+    margin: 0 0 1.25rem;
+    line-height: 1.6rem;
+}
+
+a {
+    color: #663b1a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #563316;
+}
+
+.wedding-divider {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(90deg, #563316, #7f3f1f, #563316);
+}
+
+.header-content,
+.header-nav,
+.wedding-section,
+.wedding-rsvp-link,
+.clock-unit-container {
+    background-repeat: repeat;
+    background-image: url("/img/wedding/noise-bg-cover-lighter.png");
+}
+
+.header-content {
+    text-align: center;
+    background-color: #f4eeeb;
+    color: #202020;
+    box-shadow: 0 0 3px #000000;
+}
+
+.header-title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.55rem;
+}
+
+.header-title-em {
+    color: #593316;
+    font-size: 3.25rem;
+}
+
+.header-subtitle {
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.header-title-container {
+    padding: 1rem 0 1.7rem;
+    display: block;
+}
+
+.header-nav-container {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+
+.header-nav {
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #fbf7f4;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.6) inset;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+}
+
+.header-nav > a {
+    display: inline-block;
+    padding: 0.9rem 1.2rem;
+}
+
+.header-nav > a:hover {
+    background-color: #f4eeeb;
+    background-image: inherit;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5) inset;
+    text-decoration: none;
+    color: #202020;
+}
+
+.stick-to-top {
+    position: fixed;
+    top: 0;
+}
+
+.clock-area {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.clock-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.clock-container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clock-unit-container {
+    min-width: 8rem;
+    padding: 1.75rem;
+    margin: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.clock-unit-number-content {
+    font-size: 2.5rem;
+}
+
+.clock-unit-label {
+    margin: 0.5rem 0 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.clock-subtitle {
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px #000000;
+    text-transform: uppercase;
+}
+
+.wedding-rsvp-link {
+    display: inline-block;
+    margin: 1.75rem auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #000000;
+    background-color: #ffffff;
+    color: #101010;
+}
+
+.wedding-rsvp-link:hover {
+    text-decoration: none;
+    background-color: #593316;
+    color: #ffffff;
+}
+
+.wedding-section {
+    width: 100%;
+    padding: 1.5rem 3rem 3.25rem 3rem;
+    text-align: center;
+    background-color: #fbf7f4;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.wedding-section:nth-of-type(odd) {
+    background-color: #f4eeeb;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.wedding-footer-section {
+    padding: 1.25rem 1rem;
+    font-size: 0.85rem;
+}
+
+.wedding-main-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.15rem;
+    color: #202020;
+    box-shadow: 0 0 3px #000000;
+}
+
+.wedding-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+}
+
+@media (min-width: 768px) {
+    .wedding-title:before,
+    .wedding-title:after {
+        content: "";
+        display: inline-block;
+        margin: 0 1.5rem;
+        width: 2.5rem;
+        height: 2rem;
+        vertical-align: middle;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("/img/wedding/title-decoration.png");
+    }
+
+    .wedding-title:after {
+        transform: scaleX(-1);
+    }
+}
+
+@media (max-width: 767px) {
+    .wedding-title:before {
+        content: "";
+        display: block;
+        margin: 0 auto 0.5rem auto;
+        width: 4rem;
+        height: 1.5rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("/img/wedding/title-top-decoration.png");
+    }
+}
+
+.wedding-intro-container {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #282828;
+}
+
+@media (max-width: 767px) {
+    .wedding-intro-container {
+        padding-top: 0.5rem;
+    }
+}
+
+.wedding-intro-img-col {
+    width: 25%;
+}
+
+@media (max-width: 767px) {
+    .wedding-intro-img-col {
+        width: 100%;
+    }
+}
+
+.wedding-intro-content-col {
+    width: 75%;
+    padding-left: 3rem;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .wedding-intro-content-col {
+        text-align: center;
+    }
+}
+
+.wedding-intro-content-col-right-pad {
+    padding-left: 0;
+    padding-right: 3rem;
+}
+
+.wedding-venue-map-col {
+    width: 40%;
+}
+
+.wedding-venue-content-col {
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .wedding-intro-content-col {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+
+    .wedding-intro-content-col-right-pad {
+        padding: 0 0 2rem;
+    }
+
+    .wedding-venue-map-col {
+        width: 100%;
+    }
+
+    .wedding-venue-content-col {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.wedding-intro-img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 350px;
+    box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #fbf7f4;
+}
+
+.wedding-contacts-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.wedding-contacts-list > li {
+    padding-bottom: 1rem;
+}

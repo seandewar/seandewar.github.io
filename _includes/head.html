@@ -1,14 +1,25 @@
 <head>
-    {% include analytics.html %}
+    {%- include analytics.html -%}
     <script src="https://kit.fontawesome.com/3f48d9e2a2.js" crossorigin="anonymous"></script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+    {%- if page.description -%}
+        <meta name="description" content="{{ page.description }}">
+    {%- elsif page.excerpt -%}
+        <meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
+    {%- else -%}
+        <meta name="description" content="{{ site.description }}">
+    {%- endif -%}
+
+    {%- if page.full_title -%}
+        <title>{{ page.full_title | escape }}</title>
+    {%- else -%}
+        <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+    {%- endif -%}
 
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.url }}">
     <link rel="shortcut icon" href="/img/favicon.ico">
@@ -16,14 +27,15 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/styles.css">
-    {%- if layout.styles -%}
-        {%- for style_url in layout.styles -%}
-            <link rel="stylesheet" href="{{ style_url }}">
-        {%- endfor -%}
-    {%- endif -%}
-    {%- if page.styles -%}
-        {%- for style_url in page.styles -%}
-            <link rel="stylesheet" href="{{ style_url }}">
-        {%- endfor -%}
-    {%- endif -%}
+    {%- assign page_styles = page.styles | compact -%}
+    {%- assign styles = layout.styles | compact | concat: page_styles -%}
+    {%- for url in styles -%}
+        <link rel="stylesheet" href="{{ url }}">
+    {%- endfor -%}
+
+    {%- assign page_scripts = page.scripts | compact -%}
+    {%- assign scripts = layout.scripts | compact | concat: page_scripts -%}
+    {%- for url in scripts -%}
+        <script src="{{ url }}"></script>
+    {%- endfor -%}
 </head>
