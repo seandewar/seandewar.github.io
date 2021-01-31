@@ -1,0 +1,74 @@
+/* Beth & Josh's Wedding Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Playfair+Display&display=swap');
+
+.header-content {
+    padding: 6rem 1rem 3.5rem;
+    text-align: center;
+    background-color: #fbf7f4;
+    color: #202020;
+}
+
+.header-title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+}
+
+.header-subtitle {
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+    font-weight: lighter;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #404040;
+}
+
+.clock-area {
+    padding: 7rem 1rem;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/img/wedding/leaves-bg.jpg");
+    box-shadow: 0 0 7px 0 #000000 inset;
+}
+
+.clock-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.clock-subtitle {
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #000000;
+    text-transform: uppercase;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+}
+
+.clock-unit-container {
+    padding: 1.75rem;
+    margin: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+.clock-unit-number-content {
+    font-size: 2.5rem;
+}
+
+.clock-unit-label {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
