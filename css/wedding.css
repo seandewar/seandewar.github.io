@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Playfair+Display&display=swap');
 
 .header-content {
-    padding: 6rem 1rem 3.5rem;
+    padding: 3rem 1rem 3.5rem;
     text-align: center;
     background-color: #fbf7f4;
     color: #202020;
@@ -26,7 +26,7 @@
 }
 
 .clock-area {
-    padding: 7rem 1rem;
+    padding: 4rem 1rem 4rem;
     text-align: center;
     background-attachment: fixed;
     background-position: center center;
@@ -42,15 +42,8 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
-.clock-subtitle {
-    font-family: 'Abel', sans-serif;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-shadow: 2px 2px 3px #000000;
-    text-transform: uppercase;
-}
-
 .clock-container {
+    margin-bottom: 1.5rem;
     display: flex;
     justify-content: center;
 }
@@ -71,4 +64,95 @@
     margin: 0.5rem 0 0;
     font-size: 0.9rem;
     text-transform: uppercase;
+}
+
+.clock-subtitle {
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #000000;
+    text-transform: uppercase;
+}
+
+.wedding-rsvp-link {
+    width: max-content;
+    display: block;
+    margin: 1.75rem auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px #000000;
+    background-color: #ffffff;
+    color: #101010;
+}
+
+.wedding-rsvp-link:hover {
+    text-decoration: none;
+    background-color: #473727;
+    color: #ffffff;
+}
+
+.wedding-section {
+    width: 100%;
+    padding: 1.8rem 3rem 2.75rem;
+    text-align: center;
+}
+
+.wedding-inner-container {
+    margin: 2.5rem auto;
+    max-width: 1024px;
+}
+
+.wedding-title {
+    margin: 1.3rem 1.5rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.75rem;
+}
+
+.wedding-intro-container {
+    padding-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wedding-intro-img-col {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.wedding-intro-content-col {
+    width: 75%;
+    padding-left: 3rem;
+    text-align: left;
+}
+
+.wedding-intro-content-col-right-pad {
+    padding-left: 0;
+    padding-right: 3rem;
+}
+
+.wedding-intro-img {
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.main-content {
+    padding: 0;
+    background-color: #fbf7f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.15rem;
+}
+
+.main-content > .wedding-section:nth-of-type(even) {
+    background-color: #f2ebe8;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.35) inset;
+}
+
+.main-content p {
+    margin: 0 0 1.25rem;
 }

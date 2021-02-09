@@ -26,4 +26,15 @@
             <link rel="stylesheet" href="{{ style_url }}">
         {%- endfor -%}
     {%- endif -%}
+
+    {%- if layout.scripts -%}
+        {%- for script_url in layout.scripts -%}
+            <script src="{{ script_url }}"></script>
+        {%- endfor -%}
+    {%- endif -%}
+    {%- if page.scripts -%}
+        {%- for script_url in page.scripts -%}
+            <script src="{{ script_url }}"></script>
+        {%- endfor -%}
+    {%- endif -%}
 </head>

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: bare
 title: Beth & Josh
 styles: ["/css/wedding.css"]
+scripts: ["/js/wedding/countdown-clock.js"]
 ---
 <section id="header" class="header-content">
     <h1 class="header-title">Beth & Josh</h1>
@@ -13,33 +14,90 @@ styles: ["/css/wedding.css"]
     <div class="clock-container">
         <div class="clock-unit-container">
             <div class="clock-unit-number-container">
-                <div id="clock-days" class="clock-unit-number-content">420</div>
+                <span id="clock-days" class="clock-unit-number-content">---</span>
             </div>
-            <p class="clock-unit-label">Days</p>
+            <span class="clock-unit-label">Days</span>
         </div>
         <div class="clock-unit-container">
             <div class="clock-unit-number-container">
-                <div id="clock-hrs" class="clock-unit-number-content">23</div>
+                <span id="clock-hrs" class="clock-unit-number-content">--</span>
             </div>
-            <p class="clock-unit-label">Hours</p>
+            <span class="clock-unit-label">Hours</span>
         </div>
         <div class="clock-unit-container">
             <div class="clock-unit-number-container">
-                <div id="clock-mins" class="clock-unit-number-content">59</div>
+                <span id="clock-mins" class="clock-unit-number-content">--</span>
             </div>
-            <p class="clock-unit-label">Minutes</p>
+            <span class="clock-unit-label">Minutes</span>
         </div>
         <div class="clock-unit-container">
             <div class="clock-unit-number-container">
-                <div id="clock-secs" class="clock-unit-number-content">59</div>
+                <span id="clock-secs" class="clock-unit-number-content">--</span>
             </div>
-            <p class="clock-unit-label">Seconds</p>
+            <span class="clock-unit-label">Seconds</span>
         </div>
     </div>
-    <p class="clock-subtitle">Until the Big Day!</p>
+    <span class="clock-subtitle">Until the Big Day!</span>
+    <!-- TODO: what's the link for this? -->
+    <a class="wedding-rsvp-link" title="RSVP" href="mailto:">
+        <span class="fa fa-envelope" aria-hidden="true"></span>
+        &nbsp;RSVP
+    </a>
 </section>
-<section class="main-content">
-    <div class="content-container">
-        <h1>holy shit how do i design a wedding website what the fuck</h1>
-    </div>
-</section>
+<div class="main-content">
+    <section id="intro" class="wedding-section">
+        <div class="wedding-inner-container">
+            <h1 class="wedding-title">We're Getting Married!</h1>
+            <div class="wedding-intro-container">
+                <div class="wedding-intro-img-col">
+                    <img class="wedding-intro-img" src="/img/wedding/intro-sample.jpg" max-width="300" max-height="400"/>
+                </div>
+                <div class="wedding-intro-content-col">
+                    <p>
+                        What can I say? Girls swoon when I mention that I was in
+                        the Ignito Clan; I guess you could say my trickshot
+                        landed, eh? Dab dab.
+                    </p>
+                    <p>
+                        Magnam deleniti repudiandae delectus reprehenderit enim
+                        dicta. Quia vitae error sapiente dolor id. Dicta illum
+                        ullam iste nemo. Quam tempore iusto ut veniam doloribus
+                        architecto.
+                    </p>
+                    <p>
+                        Magnam deleniti repudiandae delectus reprehenderit enim
+                        dicta. Quia vitae error sapiente dolor id. Dicta illum
+                        ullam iste nemo. Quam tempore iusto ut veniam doloribus
+                        architecto.
+                    </p>
+                    <p>
+                        <em>- Beth & Josh</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dress-code" class="wedding-section">
+        <div class="wedding-inner-container">
+            <h1 class="wedding-title">The Dress Code</h1>
+            <div class="wedding-intro-container">
+                <div class="wedding-intro-content-col wedding-intro-content-col-right-pad">
+                    <p>
+                        Dress like this cool guy, please; this also applies to
+                        girls.
+                    </p>
+                    <p>Other outfits <em>will not</em> be tolerated!</p>
+                    <p>
+                        Magnam deleniti repudiandae delectus reprehenderit enim
+                        dicta. Quia vitae error sapiente dolor id. Dicta illum ullam
+                        iste nemo. Quam tempore iusto ut veniam doloribus
+                        architecto.
+                    </p>
+                </div>
+                <div class="wedding-intro-img-col">
+                    <img class="wedding-intro-img" src="/img/wedding/dress-code-sample.jpg" max-width="300" max-height="400"/>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
