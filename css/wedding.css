@@ -2,8 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Playfair+Display&display=swap');
 
+p {
+    margin: 0 0 1.25rem;
+}
+
+a {
+    color: #663b1a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #563316;
+}
+
 .header-content {
-    padding: 3rem 1rem 3.5rem;
+    padding: 1.5rem 1rem 2.5rem;
     text-align: center;
     background-color: #fbf7f4;
     color: #202020;
@@ -15,18 +28,26 @@
     font-size: 2.8rem;
 }
 
+.header-title-em {
+    color: #593316;
+    font-size: 3.25rem;
+}
+
 .header-subtitle {
     margin: 0;
     font-family: 'Abel', sans-serif;
-    font-weight: lighter;
     font-size: 1.05rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #404040;
+    font-weight: lighter;
+}
+
+.header-subtitle-em {
+    color: #593316;
 }
 
 .clock-area {
-    padding: 4rem 1rem 4rem;
+    padding: 3rem 1rem 3rem;
     text-align: center;
     background-attachment: fixed;
     background-position: center center;
@@ -46,9 +67,11 @@
     margin-bottom: 1.5rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .clock-unit-container {
+    min-width: 8rem;
     padding: 1.75rem;
     margin: 1rem 1rem;
     background-color: rgba(0, 0, 0, 0.4);
@@ -85,22 +108,29 @@
     box-shadow: 2px 2px 3px #000000;
     background-color: #ffffff;
     color: #101010;
+    text-decoration: none;
 }
 
 .wedding-rsvp-link:hover {
     text-decoration: none;
-    background-color: #473727;
+    background-color: #593316;
     color: #ffffff;
 }
 
 .wedding-section {
     width: 100%;
-    padding: 1.8rem 3rem 2.75rem;
+    padding: 1.5rem 3rem 3rem 3rem;
     text-align: center;
+    background-color: #fbf7f4;
+}
+
+.wedding-section:nth-of-type(even) {
+    background-color: #f4eeeb;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35) inset;
 }
 
 .wedding-inner-container {
-    margin: 2.5rem auto;
+    margin: 0 auto;
     max-width: 1024px;
 }
 
@@ -110,17 +140,42 @@
     font-size: 2.75rem;
 }
 
+@media (min-width: 768px) {
+    .wedding-title:before,
+    .wedding-title:after {
+        content: "";
+        display: inline-block;
+        margin: 0 1.75rem;
+        width: 3rem;
+        border-top: 2px dotted #593316;
+        transform: translateY(-0.75rem);
+    }
+}
+
+@media (max-width: 767px) {
+    .wedding-title {
+        padding-bottom: 0.4rem;
+        display: inline-block;
+        border-bottom: 2px dotted #593316;
+    }
+}
+
 .wedding-intro-container {
-    padding-top: 0.75rem;
+    padding-top: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: #303030;
 }
 
 .wedding-intro-img-col {
     width: 25%;
-    display: flex;
-    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .wedding-intro-img-col {
+        width: 100%;
+    }
 }
 
 .wedding-intro-content-col {
@@ -129,30 +184,69 @@
     text-align: left;
 }
 
+@media (max-width: 767px) {
+    .wedding-intro-content-col {
+        text-align: center;
+    }
+}
+
 .wedding-intro-content-col-right-pad {
     padding-left: 0;
     padding-right: 3rem;
 }
 
+.wedding-venue-map-col {
+    width: 40%;
+}
+
+.wedding-venue-content-col {
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .wedding-intro-content-col {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+
+    .wedding-intro-content-col-right-pad {
+        padding: 0 0 2rem;
+    }
+
+    .wedding-venue-map-col {
+        width: 100%;
+    }
+
+    .wedding-venue-content-col {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .wedding-intro-img {
-    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 350px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
-.main-content {
+.wedding-contacts-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.wedding-contacts-list > li {
+    padding-bottom: 1rem;
+}
+
+.wedding-main-content {
     padding: 0;
-    background-color: #fbf7f4;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-size: 1.15rem;
-}
-
-.main-content > .wedding-section:nth-of-type(even) {
-    background-color: #f2ebe8;
-    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.35) inset;
-}
-
-.main-content p {
-    margin: 0 0 1.25rem;
+    color: #202020;
 }
