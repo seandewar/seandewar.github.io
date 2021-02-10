@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Delius', sans-serif;
+    background-color: #fbf7f4;
 }
 
 p {
@@ -19,12 +20,26 @@ a:hover {
     color: #563316;
 }
 
-.bg-noise,
+body,
 .header-content,
-.clock-unit-container,
+.wedding-footer,
 .wedding-section {
     background-repeat: repeat;
     background-image: url("/img/wedding/noise-bg-cover.png");
+}
+
+.clock-unit-container,
+.wedding-rsvp-link {
+    background-repeat: repeat;
+    background-image: url("/img/wedding/noise-bg-cover-lighter.png");
+}
+
+.wedding-footer {
+    padding: 1.5rem 1rem;
+    background-color: #fbf7f4;
+    color: #202020;
+    text-align: center;
+    font-size: 0.85rem;
 }
 
 .header-content {
@@ -32,6 +47,15 @@ a:hover {
     text-align: center;
     background-color: #fbf7f4;
     color: #202020;
+}
+
+.wedding-divider {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(90deg, #563316, #7f3f1f, #563316);
 }
 
 .header-title {
@@ -72,7 +96,7 @@ a:hover {
 .clock-title {
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .clock-container {
@@ -86,9 +110,9 @@ a:hover {
     min-width: 8rem;
     padding: 1.75rem;
     margin: 1rem 1rem;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    text-shadow: 2px 1px 2px #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .clock-unit-number-content {
@@ -106,7 +130,7 @@ a:hover {
     font-family: 'Abel', sans-serif;
     font-weight: bolder;
     font-size: 1.5rem;
-    text-shadow: 2px 2px 3px #000000;
+    text-shadow: 2px 2px 2px #000000;
     text-transform: uppercase;
 }
 
@@ -118,7 +142,7 @@ a:hover {
     font-size: 1.25rem;
     font-weight: normal;
     border-radius: 20px;
-    box-shadow: 2px 2px 3px #000000;
+    box-shadow: 2px 2px 2px #000000;
     background-color: #ffffff;
     color: #101010;
     text-decoration: none;
@@ -132,7 +156,7 @@ a:hover {
 
 .wedding-section {
     width: 100%;
-    padding: 1.5rem 3rem 3rem 3rem;
+    padding: 1.5rem 3rem 3.25rem 3rem;
     text-align: center;
     background-color: #fbf7f4;
 }
@@ -150,7 +174,7 @@ a:hover {
 .wedding-title {
     margin: 1.3rem 1.5rem;
     font-family: 'Dancing Script', cursive;
-    font-size: 2.75rem;
+    font-size: 2.4rem;
 }
 
 @media (min-width: 768px) {
@@ -159,7 +183,7 @@ a:hover {
         content: "";
         display: inline-block;
         margin: 0 1.75rem;
-        width: 3rem;
+        width: 3.5rem;
         border-top: 2px dotted #593316;
         transform: translateY(-0.75rem);
     }
@@ -178,7 +202,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: #303030;
+    color: #282828;
 }
 
 .wedding-intro-img-col {
@@ -243,7 +267,7 @@ a:hover {
     margin: auto;
     max-width: 100%;
     max-height: 350px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
     background-color: #fbf7f4;
 }
 
@@ -261,6 +285,6 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     color: #202020;
 }
