@@ -5,6 +5,11 @@
 body {
     font-family: 'Delius', sans-serif;
     background-color: #fbf7f4;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/img/wedding/leaves-bg.jpg");
 }
 
 p {
@@ -21,28 +26,19 @@ a:hover {
     color: #563316;
 }
 
-body,
 .header-content,
-.wedding-footer,
 .wedding-section,
-.wedding-rsvp-link {
+.wedding-rsvp-link,
+.clock-unit-container {
     background-repeat: repeat;
     background-image: url("/img/wedding/noise-bg-cover-lighter.png");
 }
 
-.wedding-footer {
-    padding: 1.5rem 1rem;
-    background-color: #fbf7f4;
-    color: #202020;
-    text-align: center;
-    font-size: 0.85rem;
-}
-
 .header-content {
-    padding: 1.5rem 1rem 2.5rem;
     text-align: center;
     background-color: #fbf7f4;
     color: #202020;
+    box-shadow: 0 0 3px #000000;
 }
 
 .wedding-divider {
@@ -50,14 +46,14 @@ body,
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-image: linear-gradient(90deg, #563316, #7f3f1f, #563316);
 }
 
 .header-title {
     margin: 0;
     font-family: 'Playfair Display', serif;
-    font-size: 2.8rem;
+    font-size: 2.55rem;
 }
 
 .header-title-em {
@@ -79,18 +75,13 @@ body,
 }
 
 .header-title-container {
-    display: inline-block;
+    padding: 1.25rem 0 2.25rem;
+    display: block;
 }
 
 .clock-area {
-    padding: 3rem 1rem 3rem;
+    padding: 3.75rem 1rem 3.75rem 1rem;
     text-align: center;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("/img/wedding/leaves-bg.jpg");
-    box-shadow: 0 0 7px 0 #000000 inset;
 }
 
 .clock-title {
@@ -110,7 +101,7 @@ body,
     min-width: 8rem;
     padding: 1.75rem;
     margin: 1rem 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.55);
     border-radius: 6px;
     text-shadow: 2px 2px 2px #000000;
 }
@@ -128,7 +119,7 @@ body,
 
 .clock-subtitle {
     font-family: 'Abel', sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1.5rem;
     text-shadow: 2px 2px 2px #000000;
     text-transform: uppercase;
@@ -157,21 +148,34 @@ body,
     padding: 1.5rem 3rem 3.25rem 3rem;
     text-align: center;
     background-color: #fbf7f4;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
 .wedding-section:nth-of-type(odd) {
     background-color: #f4eeeb;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35) inset;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
-.wedding-inner-container {
-    margin: 0 auto;
+.wedding-footer-section {
+    padding: 1.25rem 1rem;
+    font-size: 0.85rem;
+}
+
+.wedding-main-content {
     max-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.15rem;
+    color: #202020;
+    box-shadow: 0 0 3px #000000;
 }
 
 .wedding-title {
     font-family: 'Dancing Script', cursive;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
 }
 
 @media (min-width: 768px) {
@@ -294,13 +298,4 @@ body,
 
 .wedding-contacts-list > li {
     padding-bottom: 1rem;
-}
-
-.wedding-main-content {
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.15rem;
-    color: #202020;
 }

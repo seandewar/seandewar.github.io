@@ -27,7 +27,7 @@
       - "Liquid"
       - "Jekyll"
   short_desc: |
-      A wedding's landing page, hosted using [GitHub Pages](https://pages.github.com/).
+      A wedding's landing page, hosted on [GitHub Pages](https://pages.github.com/).
       Features a live countdown to the day, along with venue information.
   links:
     - url: "/bethandjosh"
