@@ -16,6 +16,22 @@
     - url: "https://github.com/seandewar/challenge-solutions"
       type: "github"
 
+- name: "Beth & Josh"
+  img_src: "/img/projects/beth-and-josh-wedding.png"
+  img_alt: "A crop of the landing page featuring a countdown to the wedding day"
+  dates: "February 2021"
+  tags:
+      - "HTML"
+      - "CSS"
+      - "JavaScript"
+      - "Liquid"
+      - "Jekyll"
+  short_desc: |
+      A wedding's landing page, hosted using [GitHub Pages](https://pages.github.com/).
+      Features a live countdown to the day, along with venue information.
+  links:
+    - url: "/bethandjosh"
+
 - name: "sd5nes"
   img_src: "/img/projects/sd5nes-minus-world.png"
   img_alt: "sd5nes running Super Mario Bros. (Minus World)"
