@@ -9,6 +9,7 @@ body {
 
 p {
     margin: 0 0 1.25rem;
+    line-height: 1.6rem;
 }
 
 a {
@@ -23,12 +24,7 @@ a:hover {
 body,
 .header-content,
 .wedding-footer,
-.wedding-section {
-    background-repeat: repeat;
-    background-image: url("/img/wedding/noise-bg-cover.png");
-}
-
-.clock-unit-container,
+.wedding-section,
 .wedding-rsvp-link {
     background-repeat: repeat;
     background-image: url("/img/wedding/noise-bg-cover-lighter.png");
@@ -139,8 +135,7 @@ body,
 }
 
 .wedding-rsvp-link {
-    width: max-content;
-    display: block;
+    display: inline-block;
     margin: 1.75rem auto;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
@@ -149,7 +144,6 @@ body,
     box-shadow: 2px 2px 2px #000000;
     background-color: #ffffff;
     color: #101010;
-    text-decoration: none;
 }
 
 .wedding-rsvp-link:hover {
@@ -167,7 +161,7 @@ body,
 
 .wedding-section:nth-of-type(odd) {
     background-color: #f4eeeb;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35) inset;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35) inset;
 }
 
 .wedding-inner-container {

@@ -10,11 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
     hrs = document.getElementById("clock-hrs");
     mins = document.getElementById("clock-mins");
     secs = document.getElementById("clock-secs");
-    UpdateClock();
-    setInterval(UpdateClock, 1000);
+    UpdateClock(Date.now());
+    setInterval(function() { UpdateClock(Date.now()); }, 1000);
 });
 
-function UpdateClock(dateTime = Date.now()) {
+// IE does not like default arguments
+function UpdateClock(dateTime) {
     var diff = Math.max(0, weddingDate - dateTime);
     days.innerHTML = Math.floor(diff / (24 * 60 * 60 * 1000));
     hrs.innerHTML = Math.floor((diff / (60 * 60 * 1000)) % 24);
