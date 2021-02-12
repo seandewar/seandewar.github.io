@@ -3,20 +3,27 @@ layout: bare
 full_title: The Wedding of Beth & Josh
 description: The official page for the wedding of Beth & Josh.
 styles: ["/css/wedding.css"]
-scripts: ["/js/wedding/countdown-clock.js"]
+scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
 ---
 <section id="header" class="header-content">
     <div class="header-title-container">
         <h1 class="header-title">
             Beth <span class="header-title-em">&amp;</span> Josh
         </h1>
-        <h2 class="header-subtitle">
-            Save the date — <span class="header-subtitle-em">30.11.2021</span>
-        </h2>
+        <h2 class="header-subtitle">Save the date — 30.11.2021</h2>
         <h2 class="header-subtitle">The Ravenswood, RH19 4HY</h2>
     </div>
-    <div class="wedding-divider"></div>
+    <div id="nav" class="header-nav-container">
+        <nav class="header-nav">
+            <a href="#intro">Intro</a>
+            <a href="#venue">Venue</a>
+            <a href="#dress-code">Dress Code</a>
+            <a href="#ceremony">Ceremony</a>
+        </nav>
+        <div class="wedding-divider"></div>
+    </div>
 </section>
+<div class="wedding-page-content">
 <section class="clock-area">
     <h1 class="clock-title">You're Invited!</h1>
     <div class="clock-container">
@@ -164,4 +171,5 @@ scripts: ["/js/wedding/countdown-clock.js"]
         © Sean Dewar. Hosted on
         <a href="https://seandewar.github.io">seandewar.github.io</a>.
     </footer>
+</div>
 </div>

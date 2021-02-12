@@ -26,7 +26,17 @@ a:hover {
     color: #563316;
 }
 
+.wedding-divider {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(90deg, #563316, #7f3f1f, #563316);
+}
+
 .header-content,
+.header-nav,
 .wedding-section,
 .wedding-rsvp-link,
 .clock-unit-container {
@@ -36,18 +46,9 @@ a:hover {
 
 .header-content {
     text-align: center;
-    background-color: #fbf7f4;
+    background-color: #f4eeeb;
     color: #202020;
     box-shadow: 0 0 3px #000000;
-}
-
-.wedding-divider {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 3px;
-    background-image: linear-gradient(90deg, #563316, #7f3f1f, #563316);
 }
 
 .header-title {
@@ -70,17 +71,53 @@ a:hover {
     font-weight: lighter;
 }
 
-.header-subtitle-em {
-    color: #593316;
-}
-
 .header-title-container {
-    padding: 1.25rem 0 2.25rem;
+    padding: 1rem 0 1.7rem;
     display: block;
 }
 
+.header-nav-container {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+
+.header-nav {
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #fbf7f4;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.6) inset;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+}
+
+.header-nav > a {
+    display: inline-block;
+    padding: 0.9rem 1.2rem;
+}
+
+.header-nav > a:hover {
+    background-color: #f4eeeb;
+    background-image: inherit;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5) inset;
+    text-decoration: none;
+    color: #202020;
+}
+
+.stick-to-top {
+    position: fixed;
+    top: 0;
+}
+
+.stick-to-top + .wedding-page-content {
+    padding-top: 3rem;
+}
+
 .clock-area {
-    padding: 3.75rem 1rem 3.75rem 1rem;
+    padding: 4rem 0;
     text-align: center;
 }
 
@@ -201,7 +238,7 @@ a:hover {
     .wedding-title:before {
         content: "";
         display: block;
-        margin: 0 auto 0.35rem auto;
+        margin: 0 auto 0.5rem auto;
         width: 4rem;
         height: 1.5rem;
         background-size: contain;
