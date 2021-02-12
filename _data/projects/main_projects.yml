@@ -37,7 +37,7 @@
 - name: "sdgbc"
   img_src: "/img/projects/sdgbc-animated.gif"
   img_alt: "sdgbc running Pokémon - Crystal Version"
-  bg_styles: "background-image: url('/img/projects/sdgbc-bg.png')"
+  bg_styles: "background-image: url('/img/projects/sdgbc-bg.jpg')"
   dates: "September 2017 - May 2018"
   tags:
     - "C++"
@@ -79,9 +79,9 @@
       type: "pdf"
 
 - name: "The Talisman"
-  img_src: "/img/projects/talisman.png"
+  img_src: "/img/projects/talisman.jpg"
   img_alt: "The Talisman"
-  bg_styles: "background-image: url('/img/projects/talisman-bg.png')"
+  bg_styles: "background-image: url('/img/projects/talisman-bg.jpg')"
   dates: "October - November 2016"
   tags:
     - "C++"
@@ -114,7 +114,7 @@
       type: "github"
 
 - name: "The File System Dungeon"
-  img_src: "/img/projects/fs-dungeon.png"
+  img_src: "/img/projects/fs-dungeon.jpg"
   img_alt: "The File System Dungeon"
   bg_styles: "background-image: url('/img/projects/fs-dungeon-bg.png')"
   dates: "July - August 2016"

@@ -26,7 +26,9 @@ function InvalidateNavbar() {
 function UpdateNavbar() {
     if (window.pageYOffset >= stickyOffset) {
         nav.classList.add("stick-to-top");
-        document.body.appendChild(paddingSheet);
+        if (!paddingSheet.parentElement) {
+            document.body.appendChild(paddingSheet);
+        }
     } else {
         nav.classList.remove("stick-to-top");
         if (paddingSheet.parentElement) {

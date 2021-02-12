@@ -17,7 +17,7 @@
       type: "github"
 
 - name: "Beth & Josh"
-  img_src: "/img/projects/beth-and-josh-wedding.png"
+  img_src: "/img/projects/beth-and-josh-wedding.jpg"
   img_alt: "A crop of the landing page featuring a countdown to the wedding day"
   dates: "February 2021"
   tags:
@@ -186,7 +186,7 @@
       type: "youtube"
 
 - name: "Mandelbrot Renderer"
-  img_src: "/img/projects/sd5-fractal-mandelbrot.png"
+  img_src: "/img/projects/sd5-fractal-mandelbrot.jpg"
   img_alt: "Mandelbrot fractal render (centered approx. -0.74 + 0.183i, 400 iterations)"
   dates: "2014"
   tags:
