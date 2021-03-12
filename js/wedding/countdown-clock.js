@@ -2,7 +2,7 @@
 // probably the first bit of javascript i've written in years lmao
 
 var days, hrs, mins, secs;
-var weddingDate = new Date(1638230400000); // 30.11.2021
+var weddingDate = new Date(1638230400000 + 43200000); // 30.11.2021 + 12:00
 
 // we don't need to wait for the whole page to load; the DOM is enough
 document.addEventListener("DOMContentLoaded", function() {
