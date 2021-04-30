@@ -30,6 +30,25 @@ a:hover {
     color: #563316;
 }
 
+ol {
+    counter-reset: item;
+}
+
+li {
+    padding-bottom: 1.5rem;
+}
+
+ol > li {
+    display: block;
+}
+
+ol > li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    padding-right: 0.2rem;
+    font-weight: bold;
+}
+
 .wedding-divider {
     display: block;
     margin: 0;
@@ -117,7 +136,7 @@ a:hover {
 }
 
 .clock-area {
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 3.25rem;
     text-align: center;
 }
 
@@ -162,9 +181,14 @@ a:hover {
     text-transform: uppercase;
 }
 
-.wedding-rsvp-link {
-    display: inline-block;
+.wedding-button-container {
+    display: block;
     margin: 1.75rem auto;
+}
+
+.wedding-button {
+    display: inline-block;
+    margin: 0.75rem 0.5rem;
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     font-weight: normal;
@@ -174,7 +198,7 @@ a:hover {
     color: #101010;
 }
 
-.wedding-rsvp-link:hover {
+.wedding-button:hover {
     text-decoration: none;
     background-color: #593316;
     color: #ffffff;
@@ -335,4 +359,22 @@ a:hover {
 
 .wedding-contacts-list > li {
     padding-bottom: 1rem;
+}
+
+.wedding-gifts-list {
+    padding-left: 0;
+}
+
+.wedding-gifts-list > li {
+    padding-left: 0;
+}
+
+@media (max-width: 767px) {
+    .wedding-gifts-list {
+        padding: 1rem 0 1rem;
+    }
+
+    .wedding-ceremony-list {
+        padding: 1rem 0 1rem;
+    }
 }
