@@ -14,12 +14,10 @@
     * [RuneLite](https://runelite.net/): the most used 3rd-party client for
     [Old School RuneScape](https://oldschool.runescape.com), averaging 100,000+
     simultaneous users.
-    * [Vim](https://www.vim.org/): a very popular modal text editor with a 
-    [30 year history](https://en.wikipedia.org/wiki/Vim_(text_editor)); comes
-    pre-installed on many Unix-derived systems.
-    * [Neovim](https://neovim.io/): a popular fork of Vim that adds modern
-    features such as [LSP support](https://microsoft.github.io/language-server-protocol/)
-    and aims to refactor the code and maximize extensibility.
+    * [Neovim](https://neovim.io/): a popular fork of the Vim text editor that
+      adds modern features such as an [LSP client](https://microsoft.github.io/language-server-protocol/),
+      and aims to refactor its code to ease maintenance and maximize
+      extensibility.
     * ...and others!
   short_desc: |
     Contributed to many projects including:
