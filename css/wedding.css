@@ -292,6 +292,7 @@ ol > li:before {
 @media (max-width: 767px) {
     .wedding-intro-img-col {
         width: 100%;
+        padding-bottom: 2rem;
     }
 }
 
@@ -324,7 +325,6 @@ ol > li:before {
     .wedding-intro-content-col {
         width: 100%;
         padding-left: 0;
-        padding-top: 2rem;
     }
 
     .wedding-intro-content-col-right-pad {

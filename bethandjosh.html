@@ -21,6 +21,7 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
             <a href="#ceremony">Ceremony</a>
             <a href="#reception">Reception</a>
             <a href="#dress-code">Dress Code</a>
+            <a href="#menu">Menu</a>
             <a href="#gifts">Gifts</a>
         </nav>
         <div class="wedding-divider"></div>
@@ -165,7 +166,10 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
     <section id="venue" class="wedding-section">
         <h1 class="wedding-title">The Venue</h1>
         <div class="wedding-intro-container">
-            <div class="wedding-intro-content-col wedding-venue-content-col wedding-intro-content-col-right-pad">
+            <div class="wedding-intro-img-col wedding-venue-map-col">
+                <iframe class="wedding-intro-img" width="400" height="300" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAcibM6j1dUgRKs0KqPx2ffU&key=AIzaSyAY88jpXMRZX-bXH_SDbpSo6j0bEaCfsMw" allowfullscreen></iframe> 
+            </div>
+            <div class="wedding-intro-content-col wedding-venue-content-col">
                 <p>
                     The wedding will be held on
                     <b>30th November 2021</b> at:
@@ -195,9 +199,6 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
                     to see the location on Google Maps.
                 </p>
             </div>
-            <div class="wedding-intro-img-col wedding-venue-map-col">
-                <iframe class="wedding-intro-img" width="400" height="300" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAcibM6j1dUgRKs0KqPx2ffU&key=AIzaSyAY88jpXMRZX-bXH_SDbpSo6j0bEaCfsMw" allowfullscreen></iframe> 
-            </div>
         </div>
     </section>
     <section id="accommodation" class="wedding-section">
@@ -205,7 +206,7 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
         <!-- TODO: better image -->
         <div class="wedding-intro-container">
             <div class="wedding-intro-img-col">
-                <img class="wedding-intro-img" src="/img/wedding/dress-code-sample.jpg" max-width="300" max-height="400">
+                <img class="wedding-intro-img" src="/img/wedding/ravenswood.jpg" max-width="300" max-height="400">
             </div>
             <div class="wedding-intro-content-col">
                 <p>
@@ -232,7 +233,7 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
         <div class="wedding-intro-container">
             <!-- TODO: change this image & maybe center it + landscape it -->
             <div class="wedding-intro-img-col">
-                <img class="wedding-intro-img" src="/img/wedding/dress-code-sample.jpg" max-width="300" max-height="400">
+                <img class="wedding-intro-img" src="/img/wedding/ravenswood-marry.jpg" max-width="300" max-height="400">
             </div>
             <div class="wedding-intro-content-col">
                 <p>
@@ -268,13 +269,9 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
             </div>
         </div>
     </section>
-    <section id="ceremony" class="wedding-section">
+    <section id="reception" class="wedding-section">
         <h1 class="wedding-title">The Reception</h1>
         <div class="wedding-intro-container">
-            <!-- TODO: change this image -->
-            <div class="wedding-intro-img-col">
-                <img class="wedding-intro-img" src="/img/wedding/dress-code-sample.jpg" max-width="300" max-height="400">
-            </div>
             <div class="wedding-intro-content-col">
                 <p>
                     The evening guests can arrive at the venue from <b>19:00 (7pm)</b>
@@ -285,12 +282,12 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
                     you must be finishing up at midnight when the music will
                     stop and the bar will be closed!
                 </p>
+            </div>
         </div>
     </section>
     <section id="dress-code" class="wedding-section">
         <h1 class="wedding-title">The Dress Code</h1>
         <div class="wedding-intro-container">
-            <!-- TODO: better image of what's expected -->
             <div class="wedding-intro-img-col">
                 <img class="wedding-intro-img" src="/img/wedding/dress-code-sample.jpg" max-width="300" max-height="400">
             </div>
@@ -325,13 +322,65 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
             </div>
         </div>
     </section>
+    <section id="menu" class="wedding-section">
+        <h1 class="wedding-title">The Menu</h1>
+        <div class="wedding-intro-container">
+            <div class="wedding-intro-content-col">
+                <p>
+                    <b>Starters:</b>
+                </p>
+                <ul>
+                    <li><b>A:</b> Pan-fried strips of peppered salmon, spinach,
+                        cucumber, spring onion, ginger pickle, with a light
+                        chilli yoghurt dressing.</li>
+                    <li><b>B:</b> Red onion, tomato and buffalo mozzarella tarte
+                        tatin, with roasted pepper couscous, rocket, tomato and
+                        pesto dressing.</li>
+                </ul>
+                <p>
+                    <b>Main courses:</b>
+                </p>
+                <ul>
+                    <li><b>A:</b> Oven baked supreme of chicken, filled with
+                        sun-blushed tomatoes, pesto and mozzarella, wrapped in
+                        pancetta, with dauphinoise potatoes and a white wine
+                        cream sauce.
+                    </li>
+                    <li><b>B:</b> Roasted butternut squash, with caramelised red
+                        onion and mozzarella cheese, served with a pine nut and
+                        chive risotto.</li>
+                </ul>
+                <p>
+                    <b>Dessert:</b>
+                </p>
+                <ul>
+                    <li>Zesty lemon and mascarpone cheesecake, set on amaretti
+                        biscuits, served with strawberry purée and lemon.</li>
+                </ul>
+                <p>
+                    Additionally, for the little ones, we have the following
+                    kids menu available:
+                </p>
+                <ul>
+                    <li><b>Starter:</b> Melon Balls.</li>
+                    <li><b>Main course:</b> Homemade Chicken Nuggets, served
+                        with Chips and Peas.</li>
+                    <li><b>Dessert:</b> A selection of Ice Creams.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <section id="gifts" class="wedding-section">
         <h1 class="wedding-title">Gifts</h1>
         <div class="wedding-intro-container">
             <div class="wedding-intro-img-col">
-                <img class="wedding-intro-img" src="/img/wedding/gifts.jpg" max-width="300" max-height="400">
+                <img class="wedding-intro-img" src="/img/wedding/gifts-ozzy.jpg" max-width="300" max-height="400">
             </div>
             <div class="wedding-intro-content-col">
+                <p>
+                    <b><a href="https://www.weddingshop.com/buy/view/93336">Click here</a>
+                       to view our gift list.</b>
+                </p>
                 <p>
                     Firstly, although most people use their weddings to leech
                     every penny from the family and friends that they rarely
