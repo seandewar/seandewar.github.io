@@ -377,4 +377,9 @@ ol > li:before {
     .wedding-ceremony-list {
         padding: 1rem 0 1rem;
     }
+
+    .wedding-food-list {
+        margin: 0;
+        padding: 1rem 0 1rem;
+    }
 }
