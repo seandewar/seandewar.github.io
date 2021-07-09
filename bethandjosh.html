@@ -3,7 +3,9 @@ layout: bare
 full_title: The Wedding of Beth & Josh
 description: The official page for the wedding of Beth & Josh.
 styles: ["/css/wedding.css"]
-scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
+scripts: ["/js/wedding/navbar.js",
+          "/js/wedding/countdown-clock.js",
+          "/js/wedding/rsvp.js"]
 ---
 <section id="header" class="header-content">
     <div class="header-title-container">
@@ -59,7 +61,7 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
     <span class="clock-subtitle">Until the Big Day!</span>
     <br>
     <div class="wedding-button-container">
-        <a class="wedding-button" title="RSVP" href="https://bethandjosh.anrsvp.com">
+        <a class="wedding-button" title="RSVP" href="https://bethandjosh.anrsvp.com" onclick="rsvpOnClick(this)">
             <span class="fa fa-envelope" aria-hidden="true"></span>
             &nbsp;RSVP
         </a>
@@ -254,9 +256,9 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
                     and canapés shortly follow.
                     <br/><br/>
                     <i>
-                        (Although there will be photos all day, here we will do the
-                        boring photos: group photos, bridesmaids, groomsmen, family,
-                        etc.)
+                        (Although there will be photos all day, here we will do
+                        the boring photos: group photos, bridesmaids, groomsmen,
+                        family, etc.)
                     </i>
                 </li>
                 <li>
@@ -294,9 +296,9 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
             <div class="wedding-intro-content-col">
                 <p>
                     As stated in the introduction, this is going to be the
-                    hottest event of the year, and so you better be dressed so
-                    cool that the cool kids are jealous. Most importantly, make
-                    sure you wear something you like and are comfortable in.
+                    hottest event of the year, so you better be dressed so cool
+                    that the cool kids are jealous. Most importantly, make sure
+                    you wear something you like and are comfortable in.
                 </p>
                 <p>
                     If you are lucky enough to be invited for the whole day
@@ -328,23 +330,23 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
             <div class="wedding-intro-content-col">
                 <b>Starters:</b>
                 <ul class="wedding-food-list">
-                    <li><b>A:</b> Pan-fried strips of peppered salmon, spinach,
-                        cucumber, spring onion, ginger pickle, with a light
-                        chilli yoghurt dressing.</li>
-                    <li><b>B:</b> Red onion, tomato and buffalo mozzarella tarte
-                        tatin, with roasted pepper couscous, rocket, tomato and
-                        pesto dressing.</li>
+                    <li><b>Choice A:</b> Pan-fried strips of peppered salmon,
+                        spinach, cucumber, spring onion, ginger pickle, with a
+                        light chilli yoghurt dressing.</li>
+                    <li><b>Choice B:</b> Red onion, tomato and buffalo
+                        mozzarella tarte tatin, with roasted pepper couscous,
+                        rocket, tomato and pesto dressing.</li>
                 </ul>
                 <b>Main courses:</b>
                 <ul class="wedding-food-list">
-                    <li><b>A:</b> Oven baked supreme of chicken, filled with
-                        sun-blushed tomatoes, pesto and mozzarella, wrapped in
-                        pancetta, with dauphinoise potatoes and a white wine
+                    <li><b>Choice A:</b> Oven baked supreme of chicken, filled
+                        with sun-blushed tomatoes, pesto and mozzarella, wrapped
+                        in pancetta, with dauphinoise potatoes and a white wine
                         cream sauce.
                     </li>
-                    <li><b>B:</b> Roasted butternut squash, with caramelised red
-                        onion and mozzarella cheese, served with a pine nut and
-                        chive risotto.</li>
+                    <li><b>Choice B:</b> Roasted butternut squash, with
+                        caramelised red onion and mozzarella cheese, served with
+                        a pine nut and chive risotto.</li>
                 </ul>
                 <b>Dessert:</b>
                 <ul class="wedding-food-list">
@@ -352,14 +354,14 @@ scripts: ["/js/wedding/navbar.js", "/js/wedding/countdown-clock.js"]
                         biscuits, served with strawberry purée and lemon.</li>
                 </ul>
                 <p>
-                    Additionally, we have the following kids menu items
+                    Additionally, we have the following children's menu
                     available:
                 </p>
                 <ul class="wedding-food-list">
-                    <li><b>Starter:</b> Melon Balls.</li>
-                    <li><b>Main course:</b> Homemade Chicken Nuggets, served
-                        with Chips and Peas.</li>
-                    <li><b>Dessert:</b> A selection of Ice Creams.</li>
+                    <li><b>Starter:</b> Melon balls.</li>
+                    <li><b>Main course:</b> Home-made chicken nuggets, served
+                        with chips and peas.</li>
+                    <li><b>Dessert:</b> A selection of ice creams.</li>
                 </ul>
             </div>
         </div>
