@@ -3,9 +3,9 @@ function rsvpOnClick(rsvpElem) {
     // in-case javascript is disabled
     event.preventDefault();
 
-    const text = "Before RSVPing, if you are attending, ensure that you have "
-               + "read our menu below and have decided on what you would like "
-               + "to eat at the event."
+    const text = "Before RSVPing, if you are attending as a day guest, ensure "
+               + "that you have read our menu below and have decided on what "
+               + "you would like to eat at the event."
                + "\n\n"
                + "If you have dietry requirements, you will be able to tell us "
                + "these during the RSVP process."
