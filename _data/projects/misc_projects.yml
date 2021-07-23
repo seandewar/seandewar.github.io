@@ -65,7 +65,7 @@
     - url: "https://github.com/seandewar/sd5chip8"
       type: "github"
 
-- name: "2D Terrain Generation"
+- name: "2D Terrain Generation & Basic Particle Physics"
   img_src: "/img/projects/2dworldgen.png"
   img_alt: "2D terrain generated with sky lighting"
   dates: "2011, 2012"
@@ -74,10 +74,14 @@
     - "XNA"
     - ".NET Framework"
   short_desc: |
-    Procedural 2D terrain generation with basic lighting. Also features
-    client-server networking for downloading terrain and live chat.
+    Procedural 2D terrain generation demo with basic lighting and particle
+    physics. Also features client-server networking for downloading terrain and
+    live chat.
   links:
     - url: "https://www.youtube.com/watch?v=6fU3Ktfe5XI"
+      type: "youtube"
+    - url: "https://www.youtube.com/watch?v=G9BLW0vo4kA"
+      name: "Physics (Old)"
       type: "youtube"
     - url: "https://www.youtube.com/watch?v=5M-ge7OCXoc"
       name: "Desert (Old)"
