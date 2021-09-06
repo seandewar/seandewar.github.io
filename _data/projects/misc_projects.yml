@@ -1,19 +1,16 @@
-- name: "Programming Challenges"
-  dates: "2018, October 2019 - Present"
+- name: "Nvimesweeper"
+  img_src: "/img/projects/nvimesweeper.jpg"
+  img_alt: "Nvimesweeper"
+  dates: "September 2021"
   tags:
-    - "C++"
-    - "C"
-    - "Java"
-    - "Python"
-    - "Rust"
-    - "Misc."
+    - "Lua"
+    - "Vim Script"
   short_desc: |
-    Occasionally, I enjoy solving programming challenges on
-    [LeetCode](https://leetcode.com/) (and sometimes,
-    [HackerRank](https://www.hackerrank.com/)). My solutions with comments are
-    available on [GitHub](https://github.com/seandewar/challenge-solutions).
+    Play Minesweeper in your favourite text editor, [Neovim](https://neovim.io/)!
+
+    _Because that's what text editors are for..._
   links:
-    - url: "https://github.com/seandewar/challenge-solutions"
+    - url: "https://github.com/seandewar/nvimesweeper"
       type: "github"
 
 - name: "Beth & Josh"
@@ -89,6 +86,24 @@
     - url: "https://www.youtube.com/watch?v=yNhhKOYGVwM"
       name: "Woods (Old)"
       type: "youtube"
+
+- name: "Programming Challenges"
+  dates: "2018, October 2019 - Present"
+  tags:
+    - "C++"
+    - "C"
+    - "Java"
+    - "Python"
+    - "Rust"
+    - "Misc."
+  short_desc: |
+    Occasionally, I enjoy solving programming challenges on
+    [LeetCode](https://leetcode.com/) (and sometimes,
+    [HackerRank](https://www.hackerrank.com/)). My solutions with comments are
+    available on [GitHub](https://github.com/seandewar/challenge-solutions).
+  links:
+    - url: "https://github.com/seandewar/challenge-solutions"
+      type: "github"
 
 - name: "UE4 Bunny Hopping"
   img_src: "/img/projects/ue4-bhop.png"

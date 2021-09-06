@@ -14,14 +14,17 @@
     * [Neovim](https://neovim.io/): a popular fork of the Vim text editor that
       adds modern features such as an [LSP client](https://microsoft.github.io/language-server-protocol/),
       and aims to refactor it to ease maintenance and maximize
-      extensibility. Member of the [Neovim GitHub organization](https://github.com/neovim).
+      extensibility.
+
+      Member of the [Neovim GitHub organization](https://github.com/neovim).
     * [RuneLite](https://runelite.net/): the most used 3rd-party client for
       [Old School RuneScape](https://oldschool.runescape.com), averaging
       100,000+ simultaneous users.
     * ...and others!
   short_desc: |
     Contributed to many projects including:
-    * [Neovim](https://neovim.io/): a popular Vim modernization fork.
+    * [Neovim](https://neovim.io/): a popular Vim modernization fork; member of
+      the [Neovim organization](https://github.com/neovim).
     * [RuneLite](https://runelite.net/): the most used 3rd-party client for
       [Old School RuneScape](https://oldschool.runescape.com).
     * ...and others!
