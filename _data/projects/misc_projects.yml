@@ -1,3 +1,20 @@
+- name: "Memetendo Unsafe Boy Advance"
+  img_src: "/img/projects/memetendo-castlevania.png"
+  img_alt: "Memetendo running Castlevania: Aria of Sorrow"
+  dates: "January, May 2022 - Present"
+  tags:
+    - "Rust"
+    - "SDL"
+    - "ARMv4T"
+  short_desc: |
+    A work-in-progress [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance)
+    emulator, written in Rust.
+
+    _Blame [@ii14](https://github.com/ii14) for the name._
+  links:
+    - url: "https://github.com/seandewar/memetendo-unsafe-boy-advance"
+      type: "github"
+
 - name: "Nvimesweeper"
   img_src: "/img/projects/nvimesweeper.jpg"
   img_alt: "Nvimesweeper"
@@ -5,12 +22,29 @@
   tags:
     - "Lua"
     - "Vim Script"
+    - "Neovim"
   short_desc: |
     Play Minesweeper in your favourite text editor, [Neovim](https://neovim.io/)!
 
     _Because that's what text editors are for..._
   links:
     - url: "https://github.com/seandewar/nvimesweeper"
+      type: "github"
+
+- name: "killersheep.nvim"
+  img_src: "/img/projects/killersheep-nvim.png"
+  img_alt: "killersheep.nvim"
+  dates: "March 2022"
+  tags:
+    - "Lua"
+    - "Neovim"
+  short_desc: |
+    [Neovim](https://neovim.io) port of [killersheep](https://github.com/vim/killersheep),
+    with blood!
+
+    _I'm starting to think text editors aren't for gaming..._
+  links:
+    - url: "https://github.com/seandewar/killersheep.nvim"
       type: "github"
 
 - name: "Beth & Josh"
@@ -170,23 +204,6 @@
       name: "OpenSpades"
       type: "youtube"
 
-- name: "City Defender"
-  img_src: "/img/projects/city-defender-animated.gif"
-  img_alt: "Shooting at asteroids in City Defender"
-  dates: "July 2016"
-  tags:
-    - "C++"
-    - "SFML"
-  short_desc: |
-    A demo game where you must defend a city from falling asteroids with
-    increasing speed. The terrain is destructible and features some
-    procedural generation. It was written in around 3 hours.
-  links:
-    - url: "https://github.com/seandewar/sdma3513demo"
-      type: "github"
-    - url: "https://www.youtube.com/watch?v=6Dj5wSjAwkc"
-      type: "youtube"
-
 - name: "Space Shooter"
   img_src: "/img/projects/space-shooter.png"
   img_alt: "The player engages enemy ships in Space Shooter"
@@ -203,31 +220,3 @@
       type: "github"
     - url: "https://www.youtube.com/watch?v=G9GPidyrpb0"
       type: "youtube"
-
-- name: "Mandelbrot Renderer"
-  img_src: "/img/projects/sd5-fractal-mandelbrot.jpg"
-  img_alt: "Mandelbrot fractal render (centered approx. -0.74 + 0.183i, 400 iterations)"
-  dates: "2014"
-  tags:
-    - "C#"
-    - ".NET Framework"
-  short_desc: |
-    Renders [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
-    fractals. Provides some configuration options.
-  links:
-    - url: "https://github.com/seandewar/SD5Fractal"
-      type: "github"
-
-- name: "rustedbrain"
-  img_src: "/img/projects/rustedbrain-sierpinski.png"
-  img_alt: "Sierpinkski Triangle printed using rustedbrain"
-  dates: "October 2016"
-  tags:
-    - "Rust"
-  short_desc: |
-    Interpreter for [Brainf**k](https://en.wikipedia.org/wiki/Brainfuck),
-    a simple esoteric programming language. A small side project for learning
-    Rust.
-  links:
-    - url: "https://github.com/seandewar/rustedbrain"
-      type: "github"

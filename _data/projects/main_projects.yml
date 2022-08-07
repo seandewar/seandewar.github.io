@@ -11,12 +11,9 @@
     - "Open Source"
   desc: |
     Contributed to many open source projects including:
-    * [Neovim](https://neovim.io/): a popular fork of the Vim text editor that
-      adds modern features such as an [LSP client](https://microsoft.github.io/language-server-protocol/),
-      and aims to refactor it to ease maintenance and maximize
-      extensibility.
-
-      Core member of the [Neovim organization](https://github.com/neovim).
+    * [Neovim](https://neovim.io/): a popular fork of the Vim text editor which
+      adds numerous modern features and aims to refactor the codebase to ease
+      maintenance and maximize extensibility.
     * [RuneLite](https://runelite.net/): the most used 3rd-party client for
       [Old School RuneScape](https://oldschool.runescape.com), averaging
       100,000+ simultaneous users.

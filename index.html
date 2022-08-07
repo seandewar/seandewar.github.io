@@ -13,20 +13,18 @@ styles: ["/css/bio.css"]
             <div class="bio-content-col">
                 <p class="bio-text">
                     I'm a British B.Sc. Computer Science graduate with 1st-class
-                    honours who has enjoyed programming since childhood. I've
-                    always been interested by the ability programming has to
-                    turn ideas into something substantial; it's the closest
+                    honours and a core member of
+                    <a href="https://github.com/neovim/">the Neovim team</a>
+                    who has enjoyed programming since childhood.
+                </p>
+                <p class="bio-text">
+                    I've always been fascinated by the ability programming has
+                    to turn ideas into something substantial; it's the closest
                     thing we have to magic!
                 </p>
                 <p class="bio-text">
-                    I began my programming journey tinkering with QBasic when I
-                    was 8 years old. Since then, I've dabbled in languages such
-                    as C, C#, Java, Rust, Python, Lua, and others, but my
-                    preferred tool of the trade is C++.
-                </p>
-                <p class="bio-text">
-                    A selection of some of the things I've worked on in the last
-                    few years can be found below and on
+                    A selection of a few things I've worked on can be found
+                    below and on
                     <a href="https://github.com/seandewar">my GitHub profile</a>.
                 </p>
             </div>
@@ -36,11 +34,9 @@ styles: ["/css/bio.css"]
 
 <!-- My Projects -->
 <section id="projects" class="projects-content">
-    <div class="projects-title-container"><h2 class="bio-title">Featured Projects</h2></div>
-        {%- for project in site.data.projects.main_projects -%}
-            {%- include projects/project_info.html project=project -%}
-        {%- endfor -%}
-    <div class="projects-title-container"><h2 class="bio-title">Other Projects</h2></div>
+    {%- for project in site.data.projects.main_projects -%}
+        {%- include projects/project_info.html project=project -%}
+    {%- endfor -%}
     <div class="project-bg-container">
         <div class="content-container">
             <div class="misc-projects-container">

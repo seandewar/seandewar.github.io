@@ -6,7 +6,7 @@
 
 @media (min-width: 768px) {
     .bio-face-col {
-        width: 25%;
+        width: 20%;
         padding: 0 1.25rem 0 0;
     }
 }
@@ -26,7 +26,7 @@
 
 @media (min-width: 768px) {
     .bio-content-col {
-        width: 75%;
+        width: 80%;
     }
 }
 
@@ -53,14 +53,6 @@
 .bio-text {
     font-size: 1.35rem;
     text-align: center;
-}
-
-/* Projects */
-.projects-title-container {
-    padding: 1rem 2rem;
-    overflow: auto; /* stop margins collapsing with child title header etc. */
-    background-image: linear-gradient(-180deg, #101010, #202020);
-    color: #ffffff;
 }
 
 .project-bg-container {
