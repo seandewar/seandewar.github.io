@@ -179,31 +179,6 @@
     - url: "https://www.youtube.com/watch?v=zEKc1pU-IV4"
       type: "youtube"
 
-- name: "DLL Injection Cheats"
-  img_src: "/img/projects/openspades-aimbot.png"
-  img_alt: "All headshot kill-feed in OpenSpades using the aimbot"
-  dates: "2014"
-  tags:
-    - "C++"
-    - "Windows API"
-  short_desc: |
-    Experimental cheats for [Cube 2: Sauerbraten](http://sauerbraten.org/) and
-    [OpenSpades](https://openspades.yvt.jp/).
-    Features [wallhack](https://en.wikipedia.org/wiki/Cheating_in_online_games#World-hacking),
-    [triggerbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots),
-    insta-killing & auto-jump for Cube 2 and an
-    [aimbot](https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots)
-    for OpenSpades.
-
-    _Not released for obvious reasons_.
-  links:
-    - url: "https://www.youtube.com/watch?v=O3JUJorjXyw&t=22"
-      name: "Cube 2"
-      type: "youtube"
-    - url: "https://www.youtube.com/watch?v=CNWDCJdFC40"
-      name: "OpenSpades"
-      type: "youtube"
-
 - name: "Space Shooter"
   img_src: "/img/projects/space-shooter.png"
   img_alt: "The player engages enemy ships in Space Shooter"
