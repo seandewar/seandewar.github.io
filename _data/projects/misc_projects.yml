@@ -131,9 +131,8 @@
     - "Rust"
     - "Misc."
   short_desc: |
-    Occasionally, I enjoy solving programming challenges on
-    [LeetCode](https://leetcode.com/) (and sometimes,
-    [HackerRank](https://www.hackerrank.com/)). My solutions with comments are
+    Occasionally, I enjoy solving programming challenges on various websites,
+    such as [LeetCode](https://leetcode.com/). My solutions with comments are
     available on [GitHub](https://github.com/seandewar/challenge-solutions).
   links:
     - url: "https://github.com/seandewar/challenge-solutions"
