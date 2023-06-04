@@ -1,26 +1,3 @@
-- name: "Memetendo Unsafe Boy Advance"
-  img_src: "/img/projects/memetendo-castlevania.png"
-  img_alt: "Memetendo running Castlevania: Aria of Sorrow"
-  dates: "January, May 2022 - Present"
-  tags:
-    - "Rust"
-    - "SDL"
-    - "Wasm"
-    - "ARMv4T"
-  short_desc: |
-    A work-in-progress [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance)
-    emulator, written in Rust.
-
-    Also features a [WebAssembly](https://webassembly.org/) front-end, allowing
-    you to [try it out in your browser](https://seandewar.github.io/memetendo-unsafe-boy-advance)!
-
-    _Blame [@ii14](https://github.com/ii14) for the name._
-  links:
-    - url: "https://github.com/seandewar/memetendo-unsafe-boy-advance"
-      type: "github"
-    - url: "https://seandewar.github.io/memetendo-unsafe-boy-advance"
-      name: "Play"
-
 - name: "Nvimesweeper"
   img_src: "/img/projects/nvimesweeper.jpg"
   img_alt: "Nvimesweeper"

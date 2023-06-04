@@ -41,14 +41,15 @@
     - "wxWidgets"
     - "CMake"
   desc: |
-    A Nintendo Game Boy & Game Boy Color emulator developed for Windows and
-    Linux.
+    A Nintendo [Game Boy](https://en.wikipedia.org/wiki/Game_Boy)
+    & [Game Boy Color](https://en.wikipedia.org/wiki/Game_Boy_Color)
+    emulator developed for Windows and Linux.
     <br>
     The project won the 2018 best Computer Science project prize at the
     University of Leicester.
 
     It features:
-    * Video, sound and joypad emulation.
+    * Video, audio and joypad emulation.
     * A command-line interface for debugging programs.
     * Emulation controls for pausing and fast-forwarding gameplay on-demand.
     * The ability to import and export Visual Boy Advance .sav files.
@@ -73,6 +74,35 @@
     - url: "https://github.com/seandewar/sdgbc/raw/master/docs/viva_presentation.pdf"
       name: "Viva Slides"
       type: "pdf"
+
+- name: "Memetendo Unsafe Boy Advance"
+  img_src: "/img/projects/memetendo-animated.gif"
+  img_alt: "Memetendo running various games"
+  bg_styles: "background-image: url('/img/projects/memetendo-bg.jpg')"
+  dates: "January, May - November 2022, March 2023"
+  tags:
+    - "Rust"
+    - "SDL2"
+    - "Wasm"
+    - "ARMv4T"
+  desc: |
+    A Nintendo [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance)
+    emulator, written in [Rust](https://www.rust-lang.org/).  
+    It is able to run most games ([including DOOM](https://www.youtube.com/watch?v=mdFqmEEttws)!)
+    with video, audio and joypad support.  
+
+    It also features a [WebAssembly](https://webassembly.org/) front-end,
+    allowing you to [run it in your browser](https://seandewar.github.io/memetendo-unsafe-boy-advance)!
+
+    _Blame [@ii14](https://github.com/ii14) for the project name._
+  links:
+    - url: "https://github.com/seandewar/memetendo-unsafe-boy-advance"
+      type: "github"
+    - url: "https://seandewar.github.io/memetendo-unsafe-boy-advance"
+      name: "Play Online"
+    - url: "https://www.youtube.com/watch?v=mdFqmEEttws"
+      name: "DOOM"
+      type: "youtube"
 
 - name: "The Talisman"
   img_src: "/img/projects/talisman.jpg"
