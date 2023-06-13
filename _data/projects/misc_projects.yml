@@ -160,20 +160,3 @@
   links:
     - url: "https://www.youtube.com/watch?v=zEKc1pU-IV4"
       type: "youtube"
-
-- name: "Space Shooter"
-  img_src: "/img/projects/space-shooter.png"
-  img_alt: "The player engages enemy ships in Space Shooter"
-  dates: "April 2013"
-  tags:
-    - "C++"
-    - "SFML"
-  short_desc: |
-    Fast-paced space shooter with infinite waves of increasing difficulty.
-    Originally written in less than a day to experiment with the SFML 2.0
-    library.
-  links:
-    - url: "https://github.com/seandewar/SpaceShooter"
-      type: "github"
-    - url: "https://www.youtube.com/watch?v=G9GPidyrpb0"
-      type: "youtube"
