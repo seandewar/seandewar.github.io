@@ -4,16 +4,13 @@
   bg_styles: "background-image: url('/img/projects/runelite-contrib-bg.png')"
   dates: "August 2018 - Present"
   tags:
-    - "C"
-    - "Java"
-    - "Lua"
-    - "Vim Script"
+    - "Various Technologies"
     - "Open Source"
   desc: |
     Contributed to many open source projects including:
-    * [Neovim](https://neovim.io/): a popular fork of the Vim text editor which
-      adds numerous modern features and aims to refactor the codebase to ease
-      maintenance and maximize extensibility.
+    * [Neovim](https://neovim.io/): a popular [Vim](https://www.vim.org/) fork;
+      voted the [most-admired development environment](https://survey.stackoverflow.co/2024/technology#admired-and-desired-new-collab-tools-desire-admire)
+      on Stack Overflow's Developer Survey for four years running!
     * [RuneLite](https://runelite.net/): the most used 3rd-party client for
       [Old School RuneScape](https://oldschool.runescape.com), averaging
       100,000+ simultaneous users.
@@ -26,7 +23,7 @@
       [Old School RuneScape](https://oldschool.runescape.com).
     * ...and others!
   links:
-    - url: "https://github.com/search?p=1&q=author%3Aseandewar+is%3Apr"
+    - url: "https://github.com/search?q=author%3Aseandewar&type=pullrequests"
       name: "Pull Requests"
       type: "github"
 
