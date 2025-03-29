@@ -22,9 +22,13 @@
     {%- endif -%}
 
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-    <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel="apple-touch-icon image_src" href="/img/apple-touch-icon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
 
     <link rel="stylesheet" href="/css/styles.css">
     {%- assign page_styles = page.styles | compact -%}
