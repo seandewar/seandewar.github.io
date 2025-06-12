@@ -1,3 +1,23 @@
+- name: "actually-doom.nvim"
+  img_src: "/img/projects/actually-doom.jpg"
+  img_alt: "actually-doom.nvim"
+  dates: "April - June 2025"
+  tags:
+    - "C"
+    - "Lua"
+    - "Neovim"
+  short_desc: |
+    Play [DOOM](https://en.wikipedia.org/wiki/Doom_(1993_video_game)) in your
+    favourite text editor, [Neovim](https://neovim.io/)!
+
+    Supports the [kitty graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/)
+    for enhanced graphics within the terminal.
+
+    _Because that's what text editors are made for..._
+  links:
+    - url: "https://github.com/seandewar/actually-doom.nvim"
+      type: "github"
+
 - name: "Nvimesweeper"
   img_src: "/img/projects/nvimesweeper.jpg"
   img_alt: "Nvimesweeper"
@@ -7,9 +27,7 @@
     - "Vim Script"
     - "Neovim"
   short_desc: |
-    Play Minesweeper in your favourite text editor, [Neovim](https://neovim.io/)!
-
-    _Because that's what text editors are for..._
+    Play Minesweeper in [Neovim](https://neovim.io/)!
   links:
     - url: "https://github.com/seandewar/nvimesweeper"
       type: "github"
@@ -62,22 +80,6 @@
       type: "github"
     - url: "https://www.youtube.com/watch?v=1sKSWIM63xo"
       type: "youtube"
-
-- name: "sd5chip8"
-  img_src: "/img/projects/sd5chip8-animated.gif"
-  img_alt: "sd5chip8 running Maze, Pong and Snake"
-  dates: "2015"
-  tags:
-    - "C++"
-    - "SFML"
-    - "CMake"
-  short_desc: |
-    Interpreter for the [CHIP-8 programming language](https://en.wikipedia.org/wiki/CHIP-8)
-    with input, graphics & sound support. Also fully supports VIP 2-page hi-res
-    programs and partially supports ETI-600 programs.
-  links:
-    - url: "https://github.com/seandewar/sd5chip8"
-      type: "github"
 
 - name: "2D Terrain Generation & Basic Particle Physics"
   img_src: "/img/projects/2dworldgen.png"
