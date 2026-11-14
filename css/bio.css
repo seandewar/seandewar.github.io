@@ -19,6 +19,7 @@
 }
 
 .bio-content-col {
+    align-self: center;
     padding: 0.5rem 1.5rem;
     border-radius: 12px;
     background-image: linear-gradient(60deg, #efedee, #f4f4f4);
